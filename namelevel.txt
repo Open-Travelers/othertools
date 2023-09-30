@@ -1,0 +1,134 @@
+FOLDER NAME 	LEVEL
+
+
+FOLDER A (main levels)
+
+----------------------------------------------------------------------------
+
+			UNUSED LEVELS
+
+Airship ---->	Unused Level with airplane
+
+Fire_isl --->	Unused Level
+
+
+
+
+
+			WARP ROOM 1
+
+
+snow_m ----->	Artic Antics (Level 1)	
+
+farm ----->		Tornado Alley (Level 2) with Airplane
+
+jungle_a ---->	Bamboozled (Level 3) with Atlasphere
+
+castle_c ---->	Wizards and Lizards (Level 4)
+
+earth_r ---->	Compactor Reactor (Level 5) Half with minecart
+
+
+
+			WARP ROOM 2
+
+jungle_r -->	Jungle Rumble (Level 6) half with Jeep
+
+seashell ---->	Sea Shell Shenanigans (Level 7) with Scuba (submarine)
+
+garden ---> 	Banzai Bonsai (Level 8 with Coco)
+
+fire_fly --->	That Sinking Feeling (Level 9) with airplane "firefly"
+
+water_r ---->	H2O oh No (Level 10) half with submarine
+
+
+			WARP ROOM 3
+
+Castle ---->	The Gauntlet (Level 11)
+
+tsunami --->	Tsunami (Level 12 - Coco) Half with Scooter
+
+west_a ---->	Smokey and the Bandicoot (Level 13) Race with Jeep
+
+cold_a ------>	Eskimo Roll (Level 14) with Atlasphere
+
+fire_r ---->	Fahrenheit Frenzy (Level 15) half with copter backpack (vehicle)
+
+
+			WARP ROOM 4
+
+Avalanch ---->	Avalanche (Level 16 - Coco) half with snowboard
+
+droid ------->	Droid Void (Level 17) Half with Mech
+
+space_a --->	Crashteroids (Level 18 - Coco) with Spaceship
+
+coral_c ----->	Coral Canyon (Level 19) Underwater with scooba and submarine
+
+weath_r --->	Weathering Heights (Level 20)
+
+
+			WARP ROOM 5
+
+volcano ---->	Crash and Burn (Level 21)
+
+western --->	Gold Rush (Level 22) little part with Minecart
+
+castle_a ---->	Medieval Madness with Athlasphere (Level 23) with Atlasphere
+
+fireball --->	Crate Balls of Fire (Level 24) half with Mech
+
+space_r ---->	Cortex Vortex (Level 25)
+
+
+--------------------------------------------------------------------------
+
+
+FOLDER B (CUTSCENES LEVEL)
+
+
+logos -->		Game start screens and logo (Crash WoC)
+
+titles -->		Old scene start screen
+
+hub	-->		Actual Hub (used) and e3hub.gsc ---> Older hub (unused)
+
+Disco -->		Credits
+
+Gameover -->	Gameover cutscene (chamber.gsc --> 	spaceship table intro\gameover)
+
+Intro\Intro2 -->	Cutscene Story Introduction
+
+Outro\Outro2 ---> Final Scenes
+
+testzone --> 	Test (Only gamecube version)
+
+Pause --->		Pause menu (only in gamecube)
+
+
+
+
+FOLDER C (HIDDEN LEVELS AND BOSS BATTLE LEVELS)
+
+
+cast_bug ---->	Knight Time (Level 26) Coco
+
+west_b   ---->	Ghost Town (Level 27) Race Level with minekart
+
+cold_b   ---->	Ice Station Bandicoot (Level 28) Race level with Copter
+
+s_balls ---->	Solar Bowler (Level 29 - Space) with Atlasphere
+
+snow_b ----->	Force of Nature (Level 30) with snowboard (Coco)
+
+earth_b ----->	Boss Battle 1 (warp room 1) with Atlasphere
+
+water_b ----->	Boss Battle 2 (warp room 2)
+
+fire_b ------>	Boss Battle 3 (warp room 3) with Mecha
+
+weath_b ----->	Boss Battle 4 (warp room 4) with Airplane
+
+space_b  ---->	Final Boss Battle (warp room 5)
+
