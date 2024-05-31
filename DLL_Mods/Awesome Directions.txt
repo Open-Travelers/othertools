@@ -1,0 +1,53 @@
+1. How it works
+2. Making the mod
+3. Running the mod
+
+-- How it works --
+
+Xbox Games use x86 assembly, which Windows 10 (32-bit and 64-bit)
+can read natively. This means if we call a function in any Xbox 
+game, Windows can execute the function like magic.
+
+If we were to try this with PS2 or GameCube games, we could
+call the function, but Windows would not understand the 
+assembly and just crash
+
+-- Making the mod --
+
+This works like any ordinary Call of Duty aimbot,
+we build a DLL and attach it to the process "cxbxr-ldr.exe";
+
+As soon as the dll is attached to CXBX, our function
+DllMain is called with DLL_PROCESS_ATTACH passed as 
+a parameter. Then we create a thread that executes one time
+
+We pass HackThread as a parameter to CreateThread, so 
+HackThread is the function that runs. In that function,
+we do the following:
+	- make a console
+	- execute OpenGame to unlock everything
+	- print to the console
+	- close the console
+	- exit the thread
+	
+The name "OpenGame" comes from the GameCube version,
+which has all function names in the code. The equivalent
+function in the Xbox version is the function at 0x6b490
+(search in .c file with ctrl + F "6b490" to find it).
+
+In our git repo, you can see a list of Xbox symbols,
+showing a list of all functions and their addresses.
+
+To call this function, we simply make a function pointer
+at address 0x6b490, and execute it; and it just works.
+
+You must compile in x86 mode, or the DLL will not work
+
+-- Running the mod --
+
+Open DLL-Injector.exe
+Select process "cxbxr-ldr.exe"
+Select the DLL you bulit
+Click Inject
+
+If you see a console window open, it worked

@@ -1,0 +1,84 @@
+structs:
+  header:
+    ascii[4] Align:
+      eq c'FOGH': BIG_ENDIAN    # GameCube
+      eq c'HGOF': LITTLE_ENDIAN # XBox
+      default: invalid
+    if self.Align == LITTLE_ENDIAN:
+      endian: little
+
+    u32 FileSize: ??
+
+  joint:
+    u8 UnkByte1: ??
+    f32[4 * 4] MatrixRot: ??    # type is 4 f32: x, y, z, w. and there are 4 matrix rotations
+    f32[4 * 4] MatrixPos: ??
+    f32[4 * 4] MatrixPos2: ??
+    f32 UnkFloat1 : ??
+    f32 UnkFloat2 : ??
+    f32 UnkFloat3 : ??
+    i8 ParentJoint : ??
+
+  block:
+    ascii[4] Tag: ??
+
+    if self.Tag == "NTBL" || self.Tag == "LBTN":
+      label: Name Table
+      u32 SectionSize: ??
+      u32 TableSize: ??
+      u8[self.TableSize] TableData: ?? # TODO, 0-terminated strings ...
+      u8[alignment(self.TableSize, 4)] Padding: ??
+
+    if self.Tag == "TST0" || self.Tag == "0TST":
+      label: Texture Set
+      u32 SectionSize: ??
+
+    if self.Tag == "TSH0" || self.Tag == "0HST":
+      label: Texture Set Count
+      u32 SectionSize: ??
+      u32 TextureCount: ??
+      #u8[self.SectionSize] Data: ??
+
+    if self.Tag == "TXM0" || self.Tag == "0MXT":
+      label: TXM # XXX
+      u32 SectionSize: ??
+      u32 N1: ??
+      u32 N2: ??
+      u32 N3: ??
+      u32 DataLength: ??
+      u8[self.DataLength] Data: ??
+
+    if self.Tag == "MS00" || self.Tag == "00SM":
+      label: Material Set
+      u32 SectionSize: ??
+      u32 Count: ??
+      u8[self.SectionSize - 12] Data: ??
+
+    if self.Tag == "HGO0" || self.Tag == "0OGH":
+      label: HGO # XXX
+      u32 SectionSize: ??
+      u8 JointCount: ??
+
+      joint[self.JointCount] Joint
+
+      u8 UnkCount1: ??
+      u8[self.UnkCount1] UnkData1: ??
+
+      u8 UnkCount2: ??
+      u8[self.UnkCount2] UnkData2: ??
+
+      u8 LayerCount: ??
+      if self.LayerCount > 0:
+        data: unseen # some code here https://github.com/TheBetaM/twinsanity-editor/blob/53c122e955bd26d213f13d7f170815b05fbeeb9e/Twinsanity/Items/HGO_Model.cs#L221
+
+      u8 ExitPointCount: ??
+      if self.ExitPointCount > 0:
+        data: unseen # some code here https://github.com/TheBetaM/twinsanity-editor/blob/53c122e955bd26d213f13d7f170815b05fbeeb9e/Twinsanity/Items/HGO_Model.cs#L227
+
+      u8 UnknownCount: ??
+      u8[self.SectionSize - (OFFSET - offset("self.SectionSize")) - 8 ] Unknown: ??
+      parse: stop
+
+layout:
+  - header Header
+  - block[] Block

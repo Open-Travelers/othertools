@@ -1,0 +1,197 @@
+Functions:
+00017010 InitRails
+0001dbc0 NuSceneReader
+0001e1c0 InitCrates
+0002bcc0 CutSceneNextLogoFunction
+0002bd80 LoadCutComponents
+0002bf30 CutLoadScreenThreadProc
+0002c020 LoadCutMovie
+0002c480 StartCutMovie
+0002d950 PlayCutMovie
+00035ee0 NuSplineFind
+00035f30 NuSpecialFind
+00035f80 NuRndrGScnObj
+00036330 NuPs2ReadPad
+00037f60 NuRndrRectUV2di
+00038c20 ReadNuIFFTexAnimSet
+000393d0 NuGScnRndr3
+000398a0 SetVertexShader
+000398c0 SetShaderConstantMode
+000398d0 GS_DrawTriListTTL
+0003ad30 GS_SetTransform
+00040fb0 edanimParamReset
+00042640 edanimUpdateObjects
+000433f0 edanimFileLoad
+00043b70 edbitsRegisterBaseScene
+000448e0 edgraInitAllClumps
+00044e30 edgraClumpsReset
+000457c0 edgraFileLoad
+0004a090 edobjRenderCutoffTest
+0004a0f0 edobjRenderObjects
+0004a1f0 edobjResetAnimsToZero
+0004a260 edobjLookupInstanceIndex
+0004a2b0 edobjRegisterBaseScene
+0004f1d0 edobjObjectReset
+0004f730 edobjUpdateObjects
+0004ffb0 edobjFileLoadObjects
+00050d40 edppDestroyAllParticles
+00050d70 edppDestroyAllEffects
+00056fa0 edppMergeEffects
+00057e60 edppLoadEffects
+0005df20 Text3D
+0005f140 ResetTempCharacter
+00060030 InitVehicleToggles
+00062ba0 ResetMaskFeathers
+00065ba0 ResetCheckpoint
+00065ef0 ResetTimer
+00066340 CalculateGamePercentage
+000669a0 InitSplineTable
+00066e40 InitObjectTable
+0006af20 NewMenu
+0006b490 OpenGame
+0006ca20 InitLevel
+0006e0c0 InitWumpa
+00078ab0 instNuGCutSceneSetEndCallback
+0007d9b0 WesternArenaReset
+0007fe80 FireBossReset
+00085e10 InitParticleSystem
+00086c40 DrawWorld
+00086cd0 PauseGame
+00086d30 DoInput
+000875a0 firstscreens
+00090980 NuFsqrt
+00090990 NuFdiv
+000909f0 NuVec4MtxTransformVU0
+00092eb0 NuBridgeRegisterBaseScene
+00092ec0 NuBridgeInit
+00092ee0 NuBridgeCreate
+00093230 NuBridgeUpdate
+000943f0 NuBridgeDraw
+00094680 NuCameraCreate
+000947b0 NuCameraCalcFrustrumPlanes
+00094c90 NuCameraGetMtx
+00094ca0 NuCameraGetViewMtx
+00094cb0 NuCameraGetProjectionMtx
+00094cc0 NuCameraGetVPCSMtx
+00094cd0 NuCameraTransformView
+00094d40 NuCameraTransformClip
+00094e20 NuCameraClipTestExtents
+00095360 NuCameraClipTestBoundingSphere
+000955b0 SetProjectionMatrix
+000956b0 NuCameraSet
+00097560 NuDatSet
+000978a0 NuFileExists
+00097a10 NuDatClose
+00097b00 NuFileRead
+00097bc0 NuFileReadFloat
+00097bf0 NuFileReadInt
+00097c10 NuFileReadShort
+00097c30 NuFileReadChar
+000982c0 NuDatOpenMem
+0009d2b0 NuLightStoreCurrentLights
+0009e300 NuMemAlloc
+0009ef10 NuMtlAddRndrItem
+000a0a60 NuMtxSetIdentity
+000a0d00 NuMtxScale
+000a1380 NuMtxMul
+000a1520 NuMtxMulH
+000a1950 NuMtxInv
+000a1b60 NuMtxInvH
+000a40e0 NuRndrBeginScene
+000a41d0 NuRndrClear
+000a4200 NuRndrSwapScreen
+000a42f0 NuRndrGobj
+000a4600 NuRndrGrassGobj
+000a58b0 NuRndrItemDist
+000a8140 NuRndrEndScene
+000a91d0 FixAxes
+000aa5a0 NuTexCreate
+000aa870 NuTexSetTexture
+000ab9e0 NuTexAnimProgReadScript
+000ac6b0 NuVecAdd
+000acc70 NuVpGetClippingMtx
+000acc90 NuVpGetScalingMtx
+000ae760 NuWindUpdate
+000aedc0 NuWindDraw
+000b00a0 DrawGameMessage
+000b50a0 GameSfx
+000b8680 ResetShaders
+000b8730 LoadWaterCausticTextures
+000bc187 TerrainPlatformOldUpdate
+000bc284 TerrainPlatformNewUpdate
+000d1ac0 AddSpacesIntoText
+000d54f0 FarmReset
+000dad10 FireFlyReset
+000dae30 ProcessFireFlyIntro
+000db3e0 WeatherResearchReset
+000db5b0 SpaceArenaReset
+000dec50 LoadVehicleStuff
+000dec70 InitJeepRocks
+000df5a0 InitVehMasks
+000df5c0 InitVehMask
+000e3e90 WeatherBossReset
+000e51d0 EarthBossReset
+000e63d0 ResetVehicleLevel
+000eb0a0 XbPollAllControllers
+000eb6c0 XbPollPeripherals
+000ec6f0 PauseGameAudio
+000ec710 ResumeGame
+000ecd37 Sleep
+000ece48 GetTickCount
+000f42d7 sprintf
+
+000958d0 InitSkinning
+00087830 InitCreatureModels
+00095900 CloseSkinning
+0002bd00 InstNuGScnRead
+00038dd0 InitXboxGSceneEffects
+0007a8d0 NuGCutSceneLoad
+00079cb0 NuGCutSceneFixUp
+00079d20 instNuGCutSceneCreate
+00066340 CalculateGamePercentage
+
+Objects:
+001ba928 CutInst
+0023c2e0 world_scene
+00242270 vpcsmtx
+00242310 smtx			// scaling matrix
+00242358 vmtx			// view matrix
+00242398 pmtx			// projection matrix
+002423d8 ivpcsmtx
+00242418 csmtx
+00242458 vpcmtx
+00242498 icsmtx
+00242518 cmtx			// clipping matrix
+002425e0 vpmtx
+003f2708 geomitem
+00242620 global_camera
+005168a0 FireBoss
+005607c0 Cursor
+00561700 PauseTimer
+00561740 LevelFileName 
+005625a0 Game
+00569540 tbuf 
+008f5121 Character
+0002bc40 CutSceneNextFunction
+
+Notes:
+ProcessCrashteroidsIntro does nothing except
+for calling ProcessFireFlyIntro, so Xbox version's
+compiler optimization just replaces calls to 
+ProcessCrashteroidsIntro with calls to ProcessFireFlyIntro
+
+Something similar happens with ResumeGame and ResumeGameAudio
+
+For a more modern conversion,
+https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/blob/master/src/core/hle/D3D8/XbConvert.h
+
+// "X_D3DPT_TRIANGLELIST   = 5,"
+// https://github.com/PatrickvL/Dxbx/blob/master/Source/Delphi/src/DxbxKrnl/EmuD3D8/uConvert.pas
+000398d0 GS_DrawTriListTTL
+
+// 0 view
+// 1 proj
+// 6 world0
+// "X_D3DTS_VIEW:"
+// https://github.com/PatrickvL/Dxbx/blob/master/Source/Delphi/src/DxbxKrnl/EmuD3D8/uConvert.pas
+0003ad30 GS_SetTransform

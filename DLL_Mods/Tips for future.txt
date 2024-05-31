@@ -1,0 +1,13 @@
+
+Remove stdio.h, and all Console stuff
+Compile in Release Mode
+
+Disable security checks (/GS)
+C/C++ -> Code Generation -> Security Check
+
+NOSTDLIB
+Linker -> Input -> Ignore All Default Libraries
+
+Rename DllMain to _DllMainCRTStartup
+
+This will reduce mods from 30kb to 1kb

@@ -1,0 +1,2946 @@
+800ea894	__AI_set_stream_sample_rate
+800eac98	__AI_SRC_INIT
+800eac40	__AICallbackStackSwitch
+800eabb0	__AIDHandler 
+800eab34	__AISHandler
+800cc3dc	__AM_arq_callback
+800cc4ac	__AM_arq_poll_callback
+800cc830	__AMPushBuffered
+800eb14c	__ARChecksize
+800eb0d4	__ARHandler
+800ebb60	__ARQCallbackHack
+800ebb64	__ARQInterruptServiceRoutine
+800eba60	__ARQServiceQueueLo
+800ebec0	__AXAllocInit
+800ec248	__AXAuxInit
+800ec9a8	__AXClInit
+800ed460	__AXDepopVoice
+800ecc18	__AXDSPDoneCallback
+800ecbb4	__AXDSPInitCallback
+800ecbc0	__AXDSPResumeCallback
+800ec324	__AXGetAuxAInput
+800ec358	__AXGetAuxAOutput
+800ec374	__AXGetAuxBInput
+800ec3a8	__AXGetAuxBOutput
+800ec554	__AXGetCommandListCycles
+800ec55c	__AXGetCommandListAddress
+800ee0c4	__AXGetCurrentProfile
+800ed4f4	__AXGetNumVoices
+800ede20	__AXGetPBs
+800ebe28	__AXGetStackHead
+800ed030	__AXGetStudio
+800ec598	__AXNextFrame
+800ecb4c	__AXOutAiCallback
+800ecce8	__AXOutInit
+800ecc24	__AXOutInitDSP
+800ec9c4	__AXOutNewFrame
+800ebfa4	__AXPopCallbackStack
+800ed03c	__AXPrintStudio
+800ec3c4	__AXProcessAux
+800ebf94	__AXPushCallbackStack
+800ebf74	__AXPushFreeStack
+800ebfc0	__AXRemoveFromStack
+800ebe40	__AXServiceCallbackStack
+800ed4fc	__AXServiceVPB
+800ede2c	__AXSetPBDefault
+800ed434	__AXSPBInit
+800edbd8	__AXSyncPBs
+800ede68	__AXVPBInit
+800f2760	__CARDAccess
+800f0064	__CARDAllocBlock
+800f0528	__CARDCheckSum
+800ef128	__CARDClearStatus
+800f26f8	__CARDCompareFileName
+800eec24	__CARDDefaultApiCallback
+800eef78	__CARDEnableInterrupt
+800ef9b8	__CARDEraseSector
+800eed34	__CARDExiHandler
+800eec5c	__CARDExtHandler
+800f204c	__CARDFormatRegionAsync
+800f017c	__CARDFreeBlock
+800efb6c	__CARDGetControlBlock
+800f02c4	__CARDGetDirBlock
+800efec0	__CARDGetFatBlock
+800f2828	__CARDGetFileNo
+800f2b44	__CARDIsOpened
+800f27f8	__CARDIsPublic
+800f1ad0	__CARDMountCallback
+800efc24	__CARDPutControlBlock
+800f50a4	__CARDRead
+800ef768	__CARDReadSegment
+800ef038	__CARDReadStatus
+800f2ee4	__CARDSeek
+800efb34	__CARDSetDiskID
+800ef5b4	__CARDStart
+800efdd8	__CARDSync
+800eec28	__CARDSyncCallback
+800eee4c	__CARDTxHandler
+800f40f8	__CARDUnlock
+800eeef4	__CARDUnlockedHandler
+800f0464	__CARDUpdateDir
+800f0218	__CARDUpdateFatBlock
+800f0e20	__CARDVerify
+800f51e4	__CARDWrite
+800ef89c	__CARDWritePage
+
+--------------
+800d6300	__cvt_fp2unsigned        ?
+----------------
+
+800e26d4	__DBExceptionDestination
+800e268c	__DBExceptionDestinationAux
+800e26e4	__DBIsExceptionMarked
+800dd5f8	__DBVECTOR
+
+800c8358	__DEMODiagnoseHang
+800c7ee8	__DEMOInitGX
+800c7e24	__DEMOInitMem
+800c7ce0	__DEMOInitRenderMode
+800c801c	__DEMOInitVI
+
+800d634c	__div2i
+800d635c	__div2u
+800db790	__do_global_ctors
+
+800ee964	__DSP_boot_task
+800ee350	__DSP_debug_printf
+800ee7c4	__DSP_exec_task
+800eeaf0	__DSP_insert_task
+800eeb90	__DSP_remove_task
+800ee3a0	__DSPHandler
+800cce5c	__DTKCallbackForAIInterrupt
+800ccea4	__DTKCallbackForFlush
+800ccd58	__DTKCallbackForPlaylist
+800ccca4	__DTKCallbackForPreparePaused
+800ccc60	__DTKCallbackForRun
+800ccf24	__DTKCallbackForStop
+800ccc44	__DTKCallbackForStreamStatus
+800ccc00	__DTKCheckUserCallback
+800ccce8	__DTKPrepareCurrentTrack
+800ccd20	__DTKPrepareCurrentTrackPaused
+800ccbcc	__DTKStopAi
+800e5c80	__DVDCheckWaitingQueue
+800e5b40	__DVDClearWaitingQueue
+800e5cd8	__DVDDequeueWaitingQueue
+800e2a54	__DVDFSInit
+800e6110	__DVDInitWA
+800e6150	__DVDInterruptHandler
+800e6f20	__DVDLowSetWAType
+800e5be0	__DVDPopWaitingQueue
+800e5a24	__DVDPrepareResetAsync
+800e5b78	__DVDPushWaitingQueue
+800e5e54	__DVDStoreErrorCode
+
+800fe824	__EXIProbe
+800ceaa0	__flush_callback
+800e5fa8	__fstLoad
+
+
+--------------GBA FUNCTIONS-------------------------------------
+80102af0	__GBAHandler
+80102e04	__GBASetDelay
+80102c00	__GBASync
+80102bcc	__GBASyncCallback
+80102d90	__GBATransfer
+80101d48	__GBAX01
+80102fac	__GBAX02
+
+
+-------------GAME--------------
+800c7b40	GBA_Download
+800c7be8	GBA_DownloadEnd
+800c7af8	GBA_DownloadStart
+800c7c14	GBA_Draw
+800c7ad8	GBA_Init
+800c79fc	GBA_LoadFile
+800c6f80	GbaCheckJBResult
+800c742c	GbaContextDiffer
+801017d0	GBAGetProcessStatus
+8010163c	GBAGetStatus
+801015d8	GBAGetStatusAsync
+80101534	GBAInit
+80101944	GBAJoyBootAsync
+800c6c84	GbaOpen
+800c75c8	GbaProc
+801028d4	GBARead
+80102868	GBAReadAsync
+80101730	GBAReset
+801016cc	GBAResetAsync
+800c711c	GbaSetport
+80102a2c	GBAWrite
+80102998	GBAWriteAsync
+
+
+
+
+80051238	LoadGBABG
+8005133c	UnLoadGBABG
+----------END GAME----------------
+------------------------------------END GBA------------------
+
+
+
+800fa4a8	__GetImageTileCount
+
+800f69c8	__GXCleanGPFifo
+800f5248	__GXDefaultTexRegionCallback
+800f52c4	__GXDefaultTlutRegionCallback
+800f6854	__GXFifoInit
+800f68ec	__GXFifoLink
+800f68ec	__GXFifoReadDisable
+800f68a0	__GXFifoReadEnable
+800fb5b4	__GXFlushTextureState
+800fa2e8	__GXGetTexTileShift
+800f5ab0	__GXInitGX
+800f88c4	__GXPEInit
+800f8aac	__GXSendFlushPrim
+800f8944	__GXSetDirtyState
+800f8cd8	__GXSetGenMode
+800fcaf4	__GXSetMatrixIndex
+800fd5c0	__GXSetRange
+800fae48	__GXSetSUTexRegs
+800fafc4	__GXSetTmemConfig
+800f7d50	__GXSetVAT
+800f7310	__GXSetVCD
+800fb4e8	__GXUpdateBPMask
+800f6930	__GXWriteFifoIntEnable
+800f697c	__GXWriteFifoIntReset
+800f6ad4	__GXXfVtxSpecs
+----------------------------------------------
+
+8000326c	__init_hardware
+800db820	__main
+
+800d6354	__mod2i 			(Thunked-Function: gcc2_compiled.)
+800d6360	__mod2u				(Thunked-Function: gcc2_compiled.)
+
+800c8200	__NoHangDoneRender
+
+800dea0c	__OSCacheInit
+800df274	__OSContextInit
+800dd548	__OSDBIntegrator
+800dd56c	__OSDBJump
+800dfb5c	__OSDispatchInterrupt
+800e02d8	__OSDoHotReset
+800dd638	__OSEVEnd
+800dd608	__OSEVSetNumber
+800dd6c8	__OSGetDIConfig
+800e13e8	__OSGetEffectivePriority
+800dd58c	__OSGetExceptionHandler
+800df6ec	__OSGetInterruptHandler
+800e1fd8	__OSGetSystemTime
+800de420	__OSInitAudioSystem
+800e00c4	__OSInitMemoryProtection
+800e0abc	__OSInitSram
+800e1158	__OSInitSystemCall
+800df700	__OSInterruptInit
+800deb00	__OSLoadFPUContext
+800e0bf0	__OSLockSram
+800e0c4c	__OSLockSramEx
+800dfa4c	__OSMaskInterrupts
+800dfeec	__OSModuleInit
+800dd690	__OSPSInit
+800e2498	__OSReboot
+800e17e4	__OSReschedule
+800e05b8	__OSResetSWInterruptHandler
+800dec24	__OSSaveFPUContext
+800dd570	__OSSetExceptionHandler
+800df6d0	__OSSetInterruptHandler
+800de5dc	__OSStopAudioSystem
+800e0ff8	__OSSyncSram
+800e1154	__OSSystemCallVectorEnd
+800e11bc	__OSThreadInit
+800df484	__OSUnhandledException
+800e23dc	__OSUnlockAllMutex
+800e0fb0	__OSUnlockSram
+800e0fd4	__OSUnlockSramEx
+800dfad4	__OSUnmaskInterrupts
+
+800ea4f0	__PADDisableRecalibration
+800df694	__RAS_OSDisableInterrupts_end
+800fad7c	__SetSURegs
+
+800d6350	__shl2i		(Thunked-Function: gcc2_compiled.)
+800d6358	__shr2i		(Thunked-Function: gcc2_compiled.)
+800d6348	__shr2u		(Thunked-Function: gcc2_compiled.)
+
+80100520	__SITransfer
+800d6364	__va_arg
+
+800e7260	__VIInit
+800e6f64	__VIRetraceHandler
+
+800d4b04	_assert
+800db70c	_localeconv_r
+80003200	_ParseCmdLine
+800d9a4c	_vfprintf_r
+800d4d5c	_write
+----------------------------------------------------------------------------
+GAME
+-----------
+
+800d6458	acos
+8002ae28	ActiveAwards
+
+8003d12c	AddAnimDebris
+80029c80	AddAward
+8004c144	AddBalloon
+800099b8	AddBugLight
+80080c3c	AddChunkControlToStack
+800151bc	AddCrateExplosion
+80018c1c	AddCreature
+80023d0c	AddDeb3
+8002371c	AddDeb3Ang
+80081c84	AddDebrisEffect
+800815a0	AddDebrisEffectToStack
+80013118	AddExtraLife
+8008163c	AddFiniteShotDebrisEffect
+80030074	AddFlyingWumpa
+8003cfdc	AddGameDebris
+8003d094	AddGameDebrisMtx
+8003d03c	AddGameDebrisRot
+8003dfe4	AddGameObject
+8006d360	AddGliderBomb
+8006947c	AddGliderBullet
+8006495c	AddGliderHitPoints
+8002cf74	AddKaboom
+80030e3c	AddMaskFeathers
+8003de50	AddMechanicalDebris
+800ae7e4	AddMtxToPrimDef
+8006052c	AddPanelDebris
+80042d64	AddProjectile
+800c292c	AddQuad3DrotXYZ
+800792f4	AddRock
+80079068	AddRockVel
+8002f604	AddScreenWumpa
+80061d70	AddSpacesIntoText
+8002fdb0	AddTempWumpa
+80081c5c	AddVariableShotDebrisEffect
+80081b84	AddVariableShotDebrisEffectMtx
+800816ac	AddVariableShotDebrisEffectMtx2
+8003ddd8	AddWarpDebris
+800742e8	AdjustAtlasRotations
+
+
+80037e80	AheadOfCheckpoint
+
+
+800ea880	AIGetDSPSampleRate
+800ea790	AIGetStreamPlayState
+800ea968	AIGetStreamSampleRate
+800ea994	AIGetStreamVolLeft
+800ea9c0	AIGetStreamVolRight
+800ea9d0	AIInit
+800ea5b0	AIInitDMA
+800ea56c	AIRegisterDMACallback
+800ea650	AIRegisterStreamCallback
+800ea694	AIResetStreamSampleCount
+800ea7a0	AISetDSPSampleRate
+800ea6b8	AISetStreamPlayState
+800ea6ac	AISetStreamTrigger
+800ea978	AISetStreamVolLeft
+800ea9a4	AISetStreamVolRight
+800ea638	AIStartDMA
+
+
+800e40e0	AlarmHandler
+800e6444	AlarmHandler
+80100ad8	AlarmHandler
+800e64c8	AlarmHandlerForTimeout
+80092c84	AllocTerrId
+800794c8	AllRoksSkyward
+
+800ccb1c	AMGetZeroBuffer
+800ccb28	AMInit
+800cc500	AMLoadFile
+800cc634	AMLoadFilePtr
+800ccab0	AMPop
+800cc748	AMPushData
+
+
+8005a9c0	AnimateATLASPHERE
+80055ea0	AnimateCOCO
+80054d28	AnimateCRASH
+8005b554	AnimateDIVE
+8005a96c	AnimateDROPSHIP
+80057af0	AnimateFIREENGINE
+80048b68	AnimateForLightsEnemyJeep
+8004935c	AnimateForLightsEnemyJeeps
+8005a8ac	AnimateGLIDER
+800585cc	AnimateGYRO
+8005aa44	AnimateJEEP
+8005765c	AnimateMECH
+80058f34	AnimateMINECART
+8005a5fc	AnimateMINETUB
+8005aa80	AnimateMOSQUITO
+80056ef8	AnimateOFFROADER
+8005642c	AnimateSCOOTER
+80056818	AnimateSNOWBOARD
+800589e4	AnimateSUBMARINE
+8005551c	AnimateSWIMMING
+800bd038	animateWater
+
+
+800202f0	AppCutSceneCharacterRender
+8002024c	AppCutSceneFindCharacters
+8007aae0	ApplyFriction
+8007d64c	ApplyVisiTable
+
+800eafb0	ARAlloc
+800eb018	ARInit
+800ebc30	ARQInit
+800ebc98	ARQPostRequest
+800eae7c	ARRegisterDMACallback
+800eaec0	ARStartDMA
+
+8007b8e8	ASin360f
+800d775c	atan	(double __stdcall)
+800d66d4	atan2	(double __stdcall)
+800d902c	atoi	(int __stdcall)
+80012a74	AttackCrate
+
+800cdae8	ax_demo_callback
+800cdb54	ax_drop_voice_callback
+800ec0d4	AXAcquireVoice
+800ec054	AXFreeVoice
+800ebdf4	AXInit
+800ed028	AXRegisterCallback
+800ee068	AXSetVoiceState
+
+
+8007bfa8	BestGuessActualsJeep
+80009e6c	BestRailPosition
+8005cab4	BigOutOf
+800f3db4	bitrev
+80009b78	BlendGameCamera
+80047998	BlendNUVECs
+800f4fc8	BlockReadCallback
+800f5108	BlockWriteCallback
+
+80039860	BonusTiming
+80039164	BonusTransporter
+80077a80	BossBar
+
+80016218	BreakCrate
+
+800a970c	buildBitCountTable
+8007d870	BuildVisiTable
+
+800e29bc	C_MTXOrtho
+800e28ec	C_MTXPerspective
+
+800c6854	CalcCrc
+80038b24	CalculateGamePercentage
+8008aca8	CalculateLocatorDirection
+8004d524	CalculateSingleLightProportion
+800e248c	Callback
+80083210	CameraEmitterDistance
+
+
+800f143c	CARDCheck
+800f0eac	CARDCheckExAsync
+800f2af0	CARDClose
+800f2e9c	CARDCreate
+800f2c7c	CARDCreateAsync
+800f388c	CARDDelete
+800f377c	CARDDeleteAsync
+800f26a4	CARDFormat
+800efc88	CARDFreeBlocks
+800f3acc	CARDGetStatus
+800efa98	CARDInit
+800f1d78	CARDMount
+800f1bd8	CARDMountAsync
+800f2978	CARDOpen
+800f1490	CARDProbeEx
+800f3314	CARDRead
+800f31cc	CARDReadAsync
+800f3d6c	CARDSetStatus
+800f3bf8	CARDSetStatusAsync
+800f1e5c	CARDUnmount
+800f3690	CARDWrite
+800f357c	CARDWriteAsync
+800e3714	CategorizeError
+
+
+800e5ed0	cb
+800e5914	cbForCancelSync
+800e33a8	cbForPrepareStreamAsync
+800e3150	cbForReadAsync
+800e3298	cbForReadSync
+800e48a4	cbForStateBusy
+800e3e2c	cbForStateCheckID1
+800e3f40	cbForStateCheckID2
+800e3fe4	cbForStateCheckID3
+800e4220	cbForStateCoverClosed
+800e35a8	cbForStateError
+800e37c8	cbForStateGettingError
+800e3b84	cbForStateGoToRetry
+800e42b8	cbForStateMotorStopped
+800e3528	cbForStateReadingFST
+800e3a5c	cbForUnrecoveredError
+800e3ac4	cbForUnrecoveredErrorRetry
+
+
+
+
+800189a0	ChangeCharacter
+80010168	ChaseActive
+8004be58	CheckAgainstFireBoss
+80079c48	CheckAgainstRocks
+80074ea4	CheckAtlasGround
+80077c60	CheckAtlasVortex
+80097080	CheckCylinder
+800bd524	checkdiscfile
+8002db0c	CheckFinish
+8006be04	CheckForPotentialMidAirCollisions
+8005abd8	CheckGates
+8006c684	CheckGliderCollisions
+800bd51c	checkmemfile
+800537d0	CheckPlayerEvents
+8005b014	CheckRings
+80097d54	CheckSphere
+8006bc1c	CheckSphereCollide
+800980a4	CheckSphereTer
+800cfe5c	ChecksumCheck
+800cfee0	ChecksumGen
+
+800e895c	ClampStick
+800311e4	CleanLetters
+800dce6c	ClearArena
+8003df18	ClearGameObjects
+8002e920	ClockOff
+80010bcc	CloseClouds
+8001101c	CloseCrates
+800176d8	CloseCreatures
+800210d8	CloseCutMovie
+80050e90	ClosePauseRender
+800d130c	CloseShaders
+800ad924	CloseSkinning
+800c59e8	CloseXboxEffectSystem
+800106d4	cloudInit
+80010990	cloudRender
+
+
+800d57dc	cmdGo
+800d5370	cmdNotifyException
+800d5450	cmdRecvMem
+800d54e8	cmdSendMem
+
+
+800274f4	CoalBreak
+8002741c	CoalSpark
+8006da24	CollideGliderBombs
+800695d0	CollideGliderBullets
+80072730	CollidePlayerPoint
+8006f270	CollideWithBattleShip
+8006f3e4	CollideWithBattleShips
+80027b74	CombinationCharacterBC
+80027b24	CombinationCharacterBD
+800ffbe4	CompleteTransfer
+8000a3f0	ComplexRailPosition
+800dffac	Config24MB
+800e002c	Config48MB
+80073d7c	ControlAtlas
+80063668	ControlGlider
+80063354	ControlGliderWeatherBoss
+8007b410	ControlledDist
+80011fa4	ConvertCrateData
+800511b4	CopyFilesThreadProc
+800d8748	copysign 	(double __stdcall)
+80104754	copysignf	(float __stdcall)
+800d799c	cos		(double __stdcall)
+801031bc	cosf		(float __stdcall)
+8003df40	CountGameObjects
+
+80012c24	CrateAbove
+80012d1c	CrateBelow
+80015d9c	CrateBottomAbove
+80013710	CrateBounceReaction
+8003f8f0	CrateCollisions
+80014570	CrateInSlot
+80012f18	CrateInTheWay
+800131dc	CrateOff
+80012f88	CrateOnTop
+80016998	CrateRayCast
+80016c7c	CrateSafety
+80015bb0	CrateTopBelow
+8008c678	CreateAlphaBlendTexture256128_32
+8008c560	CreateAlphaBlendTexture256_32
+8008c7ac	CreateAlphaBlendTexture64
+800f2b4c	CreateCallbackFat
+800801f0	CreateCopyMat
+800c1e10	CreateDirect3D__FP6HWND__
+800c33a4	CreateDmaPartEffectList
+800c32cc	CreateDmaParticleSet
+800c1d20	CreateEnvironment__FP6HWND__
+8004f8b8	CreateFadeMtl
+800ad95c	CreateSkinGeom
+800d4c84	CreateThread
+80044e38	CreatureRayCast
+80044ca8	CreatureTopBelow
+8007b1a0	CrossProduct
+
+800a1e4c	CubeImpact
+800498c8	CurrentWesternPosition
+800209fc	CutLoadScreenThreadProc
+800205ec	CutSceneEndFunction
+80020650	CutSceneNextFunction
+800206ec	CutSceneNextLogoFunction
+
+
+8003e158	CylinderCuboidOverlapXZ
+8003e434	CylinderCylinderOverlapXZ
+
+800fe050	DBClose
+800fd5d4	DBGEXIImm
+800fdbb8	DBGHandler
+800fd918	DBGRead
+800fd86c	DBGReadMailbox
+800fdad0	DBGReadStatus
+800fd9f4	DBGWrite
+800e2664	DBInit
+800fdbf8	DBInitComm
+800fdc70	DBInitInterrupts
+800fe04c	DBOpen
+800e2700	DBPrintf
+800fdcc4	DBQueryData
+800fdd60	DBRead
+800cf414	DBTimerEnd
+800cf3a4	DBTimerReset
+800cf3d4	DBTimerStart
+800fddec	DBWrite
+
+800de6b4	DCEnable
+800de6f8	DCFlushRange
+800de760	DCFlushRangeNoSync
+800de6c8	DCInvalidateRange
+800de72c	DCStoreRange
+
+80064aa0	DeadGliderCoco
+80064a74	DeadGliderWB
+
+800c3470	DeadZoneValue
+80039b0c	DeathTransporter
+80080740	DebAlloc
+80080cbc	DebFree
+80080f74	DebFreeInstantly
+800810d8	DebFreeWithoutKey
+800c4ae0	DebMtxTransform
+80080bec	DebReAlloc
+8008079c	DebReAlloc2
+800824b8	Debris
+8008324c	DebrisCollisionCheck
+80081f68	DebrisDoSounds
+80082040	DebrisDraw
+80081128	DebrisEmiterPos
+8008122c	DebrisEmitterOrientation
+80081300	DebrisEmitterOrientationMtx
+800802e0	DebrisMalloc
+80081158	DebrisOrientation
+800813b0	DebrisReflectionOrientation
+80083208	DebrisRegisterCutoffCameraVec
+80081520	DebrisSetGroupID
+80081f60	DebrisSetRenderGroup
+800814f0	DebrisSetTrigger
+80081f40	DebrisSetup
+800813e4	DebrisStartOffset
+
+800ddb08	DecrementerExceptionCallback
+800ddd38	DecrementerExceptionHandler
+
+800388f0	DefaultGame
+80038924	DefaultTimeTrialNames
+800f36d8	DeleteCallback
+
+800c8054	DEMOBeforeRender
+800c8174	DEMODoneRender
+800c81f8	DEMOGetCurrentBuffer
+800c81f0	DEMOGetRenderModeObj
+800c7c60	DEMOInit
+800c8824	DEMOInitCaption
+800c8638	DEMOLoadFont
+800c8a54	DEMOPrintf
+800c88b8	DEMOPuts
+800c8510	DEMOReInit
+800c85c0	DEMOSetFontType
+800c82a0	DEMOSetGPHangMetric
+800c8778	DEMOSetupScrnSpc
+800c81a0	DEMOSwapBuffers
+
+80091894	DerotateMovementVector
+8009247c	DeRotatePoint
+80091c3c	DeRotateTerrain
+80012934	DestroyAllNitroCrates
+
+
+800d4508	DisplayErrorAndLockup
+8003bb24	DistanceToLine
+800ddd84	DLInsert
+800de8ac	DMAErrorHandler
+
+800477d8	DoCamMtx
+80010c08	DoClouds
+8005084c	DoInput
+800f162c	DoMount
+800f4ca4	DoneCallback
+800cff90	DoOpen
+800d0c40	DoRead
+800d046c	DoSave
+8007b178	DotProduct
+800f1dc0	DoUnmount
+
+
+8003bee4	Draw3DCharacter
+8005be70	Draw3DCheckpointLetters
+8002e6e4	Draw3DCrateCount
+8003bd98	Draw3DObject
+80068054	DrawAllHovaBlimps
+8006b5b4	DrawAsteroid
+8006bbc0	DrawAsteroids
+80073d08	DrawAtlas
+80029fe4	DrawAwards
+8006f7b4	DrawBattleShip
+80070148	DrawBazookaToken
+8006ea70	DrawBigGun
+8006f214	DrawBigGuns
+80009a1c	DrawBug
+800586e8	DrawCarpet
+8001d7b4	DrawCharacterModel
+80010274	DrawChases
+80015860	DrawCrateExplosions
+800112e8	DrawCrates
+8001de5c	DrawCreatures
+8001ff4c	DrawCredits
+80004d00	DrawCRUNCHTIME
+DrawCutMovie	DrawCutMovie
+80027200	DrawDeb3
+80003b10	DrawDRAINDAMAGE
+80075f2c	DrawEarthBoss
+80077c38	DrawEarthBossLevelExtra
+80048d6c	DrawEnemyJeep
+800492bc	DrawEnemyJeeps
+8007396c	DrawExtraCreatures
+
+8004f9b0	DrawFade
+8006a720	DrawFarmLevelExtra
+8004a4d0	DrawFireBoss
+8004c000	DrawFireBossLevelExtra
+80071bb8	DrawFireFlyLevelExtra
+
+80021d1c	DrawGameCut
+8005c4a8	DrawGameMessage
+8004ed4c	DrawGameSlot
+8004f150	DrawGameSlots
+800af580	DrawGlassCreatures
+80062378	DrawGlider
+8006d4cc	DrawGliderBombs
+80069e44	DrawGliderBullets
+800712a8	DrawGliderTarget
+8006de0c	DrawGunBoat
+
+80067b38	DrawHovaBlimp
+
+8004745c	DrawJeep
+80079320	DrawJeepRock
+80079778	DrawJeepRocks
+8004a2b8	DrawJeepTrails
+80075e2c	DrawJonny
+
+8002d800	DrawKabooms
+
+8003cde0	DrawLevel
+8007293c	DrawLighteningHail
+
+800c2abc	DrawMask
+80031078	DrawMaskFeathers
+800349c0	DrawMenu
+80034700	DrawMenuEntry
+80034818	DrawMenuEntry2
+
+80031368	DrawNameInputTable
+8002cc64	DrawNextVehicle
+8003495c	DrawNODATAAVAILABLE
+
+8005cd9c	DrawPanel
+8005ae0c	DrawPanel3DArrow
+8005b9f8	DrawPanel3DCharacter
+8005b86c	DrawPanel3DObject
+8005bc34	DrawPanel3DTempCharacter
+80060c38	DrawPanelDebris
+8003c0a4	DrawParallax
+8006a2c8	DrawPlane
+800476c0	DrawPlayerJeep
+8003ca5c	DrawProbeFX
+80044818	DrawProjectiles
+
+8005b44c	DrawRings
+
+800683c0	DrawSatellite
+800686ec	DrawSatellites
+800725cc	DrawSpaceArenaLevelExtra
+80068aa8	DrawSpaceStation
+80069248	DrawSpaceStations
+800c5bcc	DrawStencilShadowQuad
+
+8003c874	DrawTarget
+80029920	DrawTempCharacter
+80029abc	DrawTempCharacter2
+8005c798	DrawTimeTrialTimes
+80071420	DrawTorpedoTarget
+8003a5c4	DrawTransporters
+
+80078f0c	DrawVehicleTrail
+8007a60c	DrawVehMasks
+
+80072e44	DrawWBBolts
+80071274	DrawWeatherBoss
+800701a0	DrawWeatherBoss_a
+800735c0	DrawWeatherBossLevelExtra
+8006313c	DrawWeatherBossTarget
+80072438	DrawWeatherResearchLevelExtra
+80049838	DrawWesternArenaLevelExtra
+800506f0	DrawWorld
+8005cc50	DrawWorldToPanelWumpa
+8002f930	DrawWumpa
+
+80065b18	DrawZoffa
+80065bd8	DrawZoffaUFOs
+800462bc	DriveJeep
+
+
+
+
+800d61c0	DSIentry
+800ee218	DSPAddTask
+800ee288	DSPAssertTask
+800ee210	DSPCheckInit
+800ee11c	DSPCheckMailFromDSP
+800ee10c	DSPCheckMailToDSP
+800ee158	DSPInit
+800ee12c	DSPReadMailFromDSP
+800ee144	DSPSendMailToDSP
+
+800cd0a8	DTKFlushTracks
+800cd26c	DTKGetCurrentTrack
+800cd264	DTKGetState
+800ccf54	DTKInit
+800ccfcc	DTKQueueTrack
+800cd10c	DTKSetRepeatMode
+800cd114	DTKSetState
+800cd274	DTKSetVolume
+
+800f4064	DummyLen
+
+800e5868	DVDCancel
+800e55f8	DVDCancelAsync
+800e51bc	DVDCancelStreamAsync
+800e5940	DVDCheckDisk
+800e2e48	DVDClose
+800e2a8c	DVDConvertPathToEntrynum
+800e54f0	DVDGetCommandBlockStatus
+800e2fcc	DVDGetCurrentDir
+800e5938	DVDGetCurrentDiskID
+800e553c	DVDGetDriveStatus
+800e5334	DVDGetStreamErrorStatusAsync
+800e53f0	DVDGetStreamPlayAddrAsync
+800e33d8	DVDInit
+800e6d9c	DVDLowAudioBufferConfig
+800e6c78	DVDLowAudioStream
+800e6ef4	DVDLowBreak
+800e6f08	DVDLowClearCallback
+800e6bdc	DVDLowInquiry
+800e66c8	DVDLowRead
+800e6a20	DVDLowReadDiskID
+800e6d10	DVDLowRequestAudioStatus
+800e6b50	DVDLowRequestError
+800e6e38	DVDLowReset
+800e6960	DVDLowSeek
+800e6ac4	DVDLowStopMotor
+800e69f4	DVDLowWaitCoverClose
+800e2d80	DVDOpen
+800e50f8	DVDPrepareStreamAbsAsync
+800e32bc	DVDPrepareStreamAsync
+800e4f54	DVDReadAbsAsyncForBS
+800e4e78	DVDReadAbsAsyncPrio
+800e3090	DVDReadAsyncPrio
+800e5024	DVDReadDiskID
+800e3180	DVDReadPrio
+800e54ac	DVDReset
+800e55e8	DVDSetAutoInvalidation
+800e5278	DVDStopStreamAtEndAsync
+
+8002754c	DynaBreak
+800bbdb8	dynamicWaterGetNormalMap
+
+80077bd0	EarthBossReset
+
+80083dc4	edanimDetermineNearestAnim
+8008419c	edanimFileLoad
+800845f4	edanimLookupInstanceIndex
+8008468c	edanimLookupSpecial
+80084658	edanimParamReset
+80084068	edanimParticleDestroy
+80083478	edanimPlayerAnimDistance
+80084650	edanimRegisterBaseScene
+80083f40	edanimSoundDestroy
+800834f0	edanimUpdateObjects
+8008495c	edbitsLookupInstance
+80084750	edbitsLookupSoundFX
+80084748	edbitsRegisterBaseScene
+80084734	edbitsRegisterSfx
+8008483c	edbitsSetSoundFxVolume
+80084844	edbitsSoundPlay
+
+80084a2c	EdFileClose
+800849e8	EdFileOpen
+80084a6c	EdFileRead
+80084b3c	EdFileReadChar
+80084a9c	EdFileReadFloat
+80084ad4	EdFileReadInt
+80084b08	EdFileReadShort
+
+
+80084dec	edgraClumpsReset
+80084e1c	edgraDetermineNearestClump
+80084f30	edgraFileLoad
+80084b74	edgraInitAllClumps
+800ced34	edmainQueryLocVec
+800ced2c	edmainRegisterLocVec
+80085fb4	edobjConvertPathToAnim
+80085e80	edobjDetermineNearestObject
+80087b50	edobjFileLoadObjects
+800883ec	edobjLookupInstance
+80085e1c	edobjLookupInstanceIndex
+800883a8	edobjObjectReset
+80087a1c	edobjParticleDestroy
+80085080	edobjPlayerObjectDistance
+
+80085e78	edobjRegisterBaseScene
+80085c20	edobjRenderCutoffTest
+80085c90	edobjRenderObjects
+80085d7c	edobjResetAnimsToZero
+800878f4	edobjSoundDestroy
+800850e4	edobjUpdateObjects
+80088528	edppDestroyAllEffects
+800884ec	edppDestroyAllParticles
+
+80088558	edppDetermineNearest
+80088d7c	edppLoadEffects
+800893c4	edppMergeEffects
+8008849c	edppPtlDestroy
+80088478	edppRegisterPointerToGameCharLocation
+800892ac	edppRestartAllEffectsInLevel
+80084718	edqrand
+
+
+80049a1c	EmptyTrail
+
+800d50fc	EnableMetroTRKInterrupts
+80003100	entry 			(?)
+800e2e6c	entryToPath		(?)
+
+800eff9c	EraseCallback
+800f039c	EraseCallback
+800f34cc	EraseCallback
+800e5d38	ErrorCode2Num
+
+800a12c8	EShadowInfo
+
+8001d3c0	EvalModelAnim
+800ba410	EvalVars
+
+800fe058	EXI2_EnableInterrupts
+800fe054	EXI2_Init
+800fe05c	EXI2_Poll
+800fe064	EXI2_ReadN
+800fe074	EXI2_Reserve
+800fe078	EXI2_Unreserve
+800fe06c	EXI2_WriteN
+
+800feacc	EXIAttach
+800fe760	EXIClearInterrupts
+800fedc0	EXIDeselect
+800febd8	EXIDetach
+800fe46c	EXIDma
+800ff59c	EXIGetID
+800ff55c	EXIGetState
+800fe170	EXIImm
+800fe3cc	EXIImmEx
+800ff278	EXIInit
+800feed0	EXIIntrruptHandler
+800ff38c	EXILock
+800fe998	EXIProbe
+800fea18	EXIProbeEx
+800fec94	EXISelect
+800fe7a8	EXISetExiCallback
+800fe558	EXISync
+800d9054	exit			(noreturn void __stdcall)
+800ff480	EXIUnlock
+80064984	ExplodeGlider
+800dfea0	ExternalInterruptHandler
+800ff1b0	EXTIntrruptHandler
+
+
+80101a80	F23
+80102e28	F23
+80101b28	F25
+80102f04	F25
+80101bf8	F27
+80101cc8	F29
+
+80101f24	F31
+801023bc	F33
+80102530	F35
+8010268c	F37
+80102788	F39
+
+800d7a7c	fabs		(double __stdcall)
+80103cb0	fabsf		(float __stdcall)
+80078594	FadeOutLastTrail
+8006a4cc	FarmReset
+
+800c6488	fclose		(int __stdcall)(FILE * __stream)
+800d9594	fftoa
+
+
+800889d8	FileLoadSingleEffectType
+800add34	FillFreeMatrixSlots
+80005208	FindAILabel
+800032a0	FindAIType
+80040da8	FindAnglesZX
+8002e990	FindClock
+800201e4	FindCutChar
+80081540	FindDebrisEffectStack
+8006b270	FindFreeAsteroid
+80067720	FindFreeHova
+80072d9c	FindFreeWBBolt
+80072d60	FindFreeWBBoltOfType
+800658ac	FindFreeZoffa
+80005248	FindGongBongerAnim
+8004c110	FindJeepBalloon
+80078f70	FindJeepRock
+8004da98	FindLightProportion
+80005420	FindNearestCreature
+8004ca7c	FindNearestLights
+800a30bc	FindPlatInst
+8007b760	FindSplineClosestPointAndDist
+8007b4a8	FindSplineTargetPoint
+8007cb50	FindSurfaceNormalAndUnembedd
+8007cae8	FindSurfaceRotXZFromNormal
+80046f38	FindTerrainType
+80078af8	FindTrailAng
+8007c9d8	FindVehicleNormalGiven4Points
+80065cec	FindZoffaRestartPoint
+8002bdec	FinishHGobjAnim
+80039094	FinishTransporter
+8004bf90	FireBossReset
+8004c204	FireBossWaterFire
+80071a90	FireFlyReset
+80073174	FireWBBolt
+800510dc	firstscreenfade
+800514f8	firstscreens
+800ad5b4	FixAxes
+800bce68	fixMaterials
+
+
+800d7ab8	floor		(double __stdcall)
+80104560	floorf		(float __stdcall)
+8003ea38	FlyGameObject
+8002eef0	FlyWumpa
+
+800d6954	fmod		(double __stdcall)
+
+800c6138	fopen		(FILE * __stdcall) (char * __filename, char * __modes)
+800f1f08	FormatCallback
+
+8007af58	frand
+8007afc0	frandPN
+800c6370	fread		(size_t __stdcall)
+800d4c1c	free		(void __stdcall)
+800be748	free_x
+800693c0	FreeGliderBullet
+
+
+
+800c64c0	fseek		(int __stdcall) (FILE * __stream, long __off, int __whence)
+8007b030	fsign
+
+8009d474	FullDeflect
+8009d558	FullDeflectTest
+8009d6e4	FullReflect
+800db280	FUN_800db280
+800e026c	FUN_800e026c			(RESET?)
+8000e25c	FurtherALONG
+8000e2d4	FurtherBEHIND
+
+800c1284	fxyd
+
+800619bc	GameAudioUpdate
+800613e0	GameMusic
+8003e874	GameObjectOverlap
+8003e0d4	GameObjectRadius
+8003c62c	GameRayCast
+80061564	GameSfx
+80061828	GameSfxLoop
+80038198	GameTiming
+8005b5e4	GameVP
+
+------------------------------------------------GC FUNCTION------------------
+800c6540	GC_DiskErrorPoll
+800cc328	gcc2_compiled.
+800ccb8c	gcc2_compiled.
+800cd2bc	gcc2_compiled.
+800d4d00	gcc2_compiled.
+800d7fe8	gcc2_compiled.
+800d80dc	gcc2_compiled.
+800d8188	gcc2_compiled.
+800d83e4	gcc2_compiled.
+800d87a0	gcc2_compiled.
+800d9104	gcc2_compiled.
+800db73c	gcc2_compiled.
+800db854	gcc2_compiled.
+800db894	gcc2_compiled.
+800db8d4	gcc2_compiled.
+?		gcc2_compiled.
+800dbe6c	gcc2_compiled.
+800dbeac	gcc2_compiled.
+800dc3f0	gcc2_compiled.
+800dc908	gcc2_compiled.
+801035a8	gcc2_compiled.
+80103690	gcc2_compiled.
+8010373c	gcc2_compiled.
+80103960	gcc2_compiled.
+80103cd4	gcc2_compiled.
+800c6458	GCFileClose
+800c60a0	GCFileOpen
+800c61d8	GCFileRead
+800c61b0	GCFileSize
+-------------------------------------------------------------------------------
+
+
+8003a0b8	GemPathTransporter
+
+8007e4f8	GenDebIndex
+8007f434	GenDebIndexBounceXZ
+8007f000	GenDebIndexBounceY
+8007f89c	GenDebIndexPos
+8007fab8	GenDebIndexPosRandTime
+8007e780	GenDebIndexRadial
+8007ea1c	GenDebIndexRadialRotor
+8007fa98	GenDebIndexSort
+8007ed08	GenDebIndexSpheroid
+8007fce4	GenDebIndexWaterFall
+8007ff04	GenDebIndexWaterFallSplash
+
+80080100	GenDebMomAdjFromAshRock
+80080074	GenDebMomAdjFromPos
+80080090	GenDebMomAdjFromPosAll
+800800c0	GenDebMomAdjFromPosRev
+80080124	GenDebMomAdjFromPosRevTree
+800800dc	GenDebMomAdjFromSplash
+
+8006c58c	GenerateGliderLines
+800455b0	GenerateJeepTargets
+8004535c	GenerateJeepWheelPoint
+
+800c4e74	GenericDebinfoDmaTypeUpdate
+800cda9c	get_demo_voice
+8000e200	GetALONG
+8006f864	GetBattleShipBestTarget
+8006eb28	GetBigGunBestTarget
+80009aa4	GetBugPosition
+800127b8	GetCrateType
+
+
+8006d284	GetCurrentFarmObjectives
+800e8738	getCurrentFieldEvenOdd
+8004c104	GetCurrentFireBossObjectives
+800722d4	GetCurrentFireFlyObjectives
+80073c30	GetCurrentLevelObjectives
+80073cf0	GetCurrentRumbleObjectives
+800726fc	GetCurrentSpaceArenaObjectives
+80073808	GetCurrentWeatherBossObjectives
+8007248c	GetCurrentWeatherResearchObjectives
+
+800e203c	GetDates
+80041efc	GetDieAnim
+80062060	GetDiskErrString
+800c1ddc	GetFullscreenBuffers__FP9D3DDevice
+800aedd4	GetGlassSpecularTexId
+80062360	GetGliderHealthPercentage
+8006ded8	GetGunBoatBestTarget
+800d4cac	GetLastError
+
+8004e8f0	GetLightPosition
+8004dfec	GetLights
+8007a970	GetLocatorMtx
+8007aa28	GetLocatorMtxMyDraw
+80073b80	GetMaxLevelObjectives
+80031748	GetMenuInfo
+800d0fac	GetPlayerPosition
+8006b300	GetRandomGliderLevelEdgePoint
+
+800795a0	GetRumbleCrunchRoks
+80073cfc	GetRumblePlayerHealthPercentage
+8007960c	GetRumblePlayerRoks
+80079554	GetRumbleTotalRoks
+80021ff4	GetSpaceCut
+80061ef0	GetStringIdx
+80040e0c	GetSurfaceInfo
+800d4c74	GetTickCount
+800e71d0	getTiming
+8003f728	GetTopBot
+8004c0fc	GetTotalFireBossObjectives
+80005108	GetTotalSpaceBossObjectives
+800b9850	GetTPID
+80100cd0	GetTypeCallback
+8007a7c4	GetVolumeI
+8006fe58	GetWeatherBossPos
+800662c8	GetZoffaBestTarget
+
+80069c28	GliderBombsHitThings
+800699c4	GliderBulletsHitThings
+8006aab4	GliderCam
+8006a758	GliderCamWeatherBoss
+800626e8	GliderFire
+80064788	GliderSmoke
+
+80016eb0	GotoCheckpoint
+
+800646bc	GrabAnotherLocator
+8006d300	GrabGliderBomb
+80069320	GrabGliderBullet
+
+800c8bd8	GS_ARGBTORGBA
+800c8bfc	GS_BeginScene
+800cbd04	GS_ChangeTextureStates
+800c9a70	GS_CopyFBToPause
+800c9a6c	GS_CopyTextureFromFB
+
+800cf490	GS_CreateBuffer
+800cf4fc	GS_DeleteBuffer
+
+800c8ee4	GS_DrawFade
+800caff8	GS_DrawIndexedTriList
+800cae70	GS_DrawIndexedTriStrip
+800d0ea4	GS_DrawPointList
+800cabcc	GS_DrawPrimitiveQuad
+800caaa0	GS_DrawQuadList
+800cb420	GS_DrawQuadListBeginBlock
+800cb51c	GS_DrawQuadListEndBlock
+800cb4ec	GS_DrawQuadListSetVert
+800ca818	GS_DrawTriList
+800cb520	GS_DrawTriListTSkin
+800cb2fc	GS_DrawTriListTTL
+800ca60c	GS_DrawTriStrip
+800cb1d8	GS_DrawTriStripTTL
+
+800ca10c	GS_EnableColorVertex
+800ca0e0	GS_EnableLighting
+800ca114	GS_EnableSpecular
+800c8cdc	GS_EndScene
+800c905c	GS_FlipScreen
+800c92ec	GS_GetViewport
+800c8cfc	GS_Init
+800c9afc	GS_InitVertexDescriptors
+800d4cb4	GS_InitXForm
+800c9f04	GS_LightEnable
+800c97c8	GS_LoadMatrix
+800c9904	GS_LoadWorldMatrixIdentity
+800c8df8	GS_RenderClear
+800c8e80	GS_RenderClearBlack
+800ca11c	GS_Set3Lights
+800c8b80	GS_SetAlphaCompare
+800c8b40	GS_SetAlphaCompareForce
+800d4240	GS_SetBlendSource
+800c9470	GS_SetBlendSrc
+800c952c	GS_SetBlendSrc2
+800c8b14	GS_SetFBCopyTexturePause
+800c9e98	GS_SetLight
+800c961c	GS_SetLightingMatrix
+800c9734	GS_SetLightingMatrix2
+800c9fb0	GS_SetLightingNone
+800c9c24	GS_SetMaterial
+800ca0e8	GS_SetMaterialSourceAmbient
+800ca104	GS_SetMaterialSourceEmissive
+800c8eb4	GS_SetOrthMatrix
+800ca0d4	GS_SetPointLighting
+800c955c	GS_SetProjectionMatrix
+800cb4cc	GS_SetQuadListRGBA
+800c93b8	GS_SetRenderState
+800cc074	GS_SetTevBlend
+800cc0cc	GS_SetTevModulate
+800cc0f0	GS_SetTextureStageState
+800c9328	GS_SetupFog
+800d4238	GS_SetVertexSource
+800c9840	GS_SetViewMatrix
+800c92b0	GS_SetViewport
+800c9940	GS_SetWorldMatrix
+800c93bc	GS_SetZCompare
+800cb950	GS_TexCreateNU
+800cb6d8	GS_TexInit
+800cb77c	GS_TexReInit
+800cbe18	GS_TexSelect
+800cbda8	GS_TexSetWrapModes
+800cbde0	GS_TexSetWrapModet
+800cb83c	GS_TexSwizzleRGB5A3
+800c9f1c	GS_XFormLightVec
+
+
+800f8444	GXAbortFrame
+800f8cfc	GXAdjustForOverscan
+800f89d0	GXBegin
+800f9ab0	GXClearBoundingBox
+800fd55c	GXClearGPMetric
+800f762c	GXClearVtxDesc
+800f97b0	GXCopyDisp
+800f9920	GXCopyTex
+800f6334	GXCPInterruptHandler
+800f85d4	GXDrawDone
+800f8be0	GXEnableTexOffsets
+800f8840	GXFinishInterruptHandler
+800f83e8	GXFlush
+800f6ac4	GXGetCPUFifo
+800f6844	GXGetFifoBase
+800f684c	GXGetFifoSize
+800f6acc	GXGetGPFifo
+800f67e0	GXGetGPStatus
+800fa34c	GXGetTexBufferSize
+800fa9a0	GXGetTexObjFmt
+800f7dec	GXGetVtxAttrFmt
+800f7478	GXGetVtxDesc
+800f91f8	GXGetYScaleFactor
+
+800f52e8	GXInit
+800f6470	GXInitFifoBase
+800f654c	GXInitFifoLimits
+800f64dc	GXInitFifoPtrs
+800f9c78	GXInitLightColor
+800f9c68	GXInitLightPos
+800f9ae8	GXInitLightSpot
+800faba4	GXInitTexCacheRegion
+800fa570	GXInitTexObj
+800fa7e4	GXInitTexObjLOD
+800fa978	GXInitTexObjWrapMode
+800facc4	GXInitTlutRegion
+800fad0c	GXInvalidateTexAll
+800f80c0	GXInvalidateVtxCache
+800f9ca0	GXLoadLightObjImm
+800fc798	GXLoadNrmMtxImm
+800fc75c	GXLoadPosMtxImm
+800fc814	GXLoadTexMtxImm
+800fab50	GXLoadTexObj
+800fa9a8	GXLoadTexObjPreLoaded
+800f8654	GXPixModeSync
+800f8678	GXPokeAlphaMode
+800f868c	GXPokeAlphaRead
+800f86a0	GXPokeAlphaUpdate
+800f86bc	GXPokeBlendMode
+800f8744	GXPokeColorUpdate
+800f86bc	GXPokeBlendMode
+800f8760	GXPokeDstAlpha
+800f8774	GXPokeDither
+800f8760	GXPokeDstAlpha
+800f8790	GXPokeZMode
+800f85c8	GXReadDrawSync
+800fd410	GXReadGPMetric
+800fd56c	GXReadXfRasMetric
+800fbbd0	GXSetAlphaCompare
+800fc2a8	GXSetAlphaUpdate
+800f8034	GXSetArray
+800fc164	GXSetBlendMode
+800f9de8	GXSetChanAmbColor
+800fa104	GXSetChanCtrl
+800f9f50	GXSetChanMatColor
+800fcacc	GXSetClipMode
+800fc268	GXSetColorUpdate
+800f8c94	GXSetCoPlanar
+800f917c	GXSetCopyClamp
+800f9504	GXSetCopyClear
+800f956c	GXSetCopyFilter
+800f6558	GXSetCPUFifo
+800f8c44	GXSetCullMode
+800fc7d8	GXSetCurrentMtx
+800f8f9c	GXSetDispCopyDst
+800f9150	GXSetDispCopyFrame2Field
+800f9794	GXSetDispCopyGamma
+800f8e1c	GXSetDispCopySrc
+800f9430	GXSetDispCopyYScale
+800fc4b0	GXSetDither
+800f8510	GXSetDrawSync
+800fc4f0	GXSetDstAlpha
+800fc544	GXSetFieldMask
+800fc57c	GXSetFieldMode
+800fbeb4	GXSetFog
+800fc064	GXSetFogRangeAdj
+800f6668	GXSetGPFifo
+800fcb78	GXSetGPMetric
+800fb2a0	GXSetIndTexCoordScale
+800f8b34	GXSetLineWidth
+800fa0b8	GXSetNumChans
+800fb474	GXSetNumIndStages
+800fbe80	GXSetNumTevStages
+800f83a0	GXSetNumTexGens
+800fc3a0	GXSetPixelFmt
+800f8b8c	GXSetPointSize
+800fc5fc	GXSetProjection
+800fc9d8	GXSetScissor
+800fca88	GXSetScissorBoxOffset
+800fb7fc	GXSetTevAlphaIn
+800fb940	GXSetTevAlphaOp
+800fb77c	GXSetTevColorIn
+800fb880	GXSetTevColorOp
+800fb4a0	GXSetTevDirect
+800fb204	GXSetTevIndirect
+800fba6c	GXSetTevKAlphaSel
+800fba00	GXSetTevKColorSel
+800fb5d8	GXSetTevOp
+800fbca4	GXSetTevOrder
+800fbad8	GXSetTevSwapMode
+800fbb30	GXSetTevSwapModeTable
+800f80d0	GXSetTexCoordGen2
+800f8fe0	GXSetTexCopyDst
+800f8edc	GXSetTexCopySrc
+800fad54	GXSetTexRegionCallback
+800fad68	GXSetTlutRegionCallback
+800fc9b4	GXSetViewport
+800fc898	GXSetViewportJitter
+800f7678	GXSetVtxAttrFmt
+800f79d4	GXSetVtxAttrFmtv
+800f6c2c	GXSetVtxDesc
+800f6f8c	GXSetVtxDescv
+800fc360	GXSetZCompLoc
+800fc2e8	GXSetZMode
+800fbc20	GXSetZTexture
+800f87b8	GXTokenInterruptHandler
+
+80050ed8	HandlePauseRender
+80011d6c	HeightSortCrateData
+
+80016568	HitCrateBalloons
+80016330	HitCrates
+80041c4c	HitCreatures
+80041ba0	HitItems
+80098364	HitPoly
+80099bb4	HitTerrain
+80098c10	HitWallSpline
+8002f440	HitWumpa
+
+800d610c	hookvecs
+80012b98	HopCratesAbove
+
+8002b7b8	HubDrawItems
+80029be0	HubFromLevel
+8002ae64	HubLevelSelect
+8002b4b0	HubMoveVR
+8002a5ac	HubSelect
+8002a2c8	HubStart
+
+800de7d8	ICEnable
+800de7c8	ICFlashInvalidate
+800de790	ICInvalidateRange
+
+80009088	InBugArea
+80015f84	InCrate
+800cda6c	init_demo_voices
+800034e4	InitAI
+8006b3c8	InitAsteroid
+8006b564	InitAsteroids
+8007511c	InitAtlas
+8006f470	InitBattleShip
+8006f688	InitBattleShips
+8006e5c4	InitBigGun
+8006e79c	InitBigGuns
+80008f3c	InitBugAreas
+800f4c34	InitCallback
+8000e34c	InitCameraTargetMaterial
+8000ef04	InitChase
+8000e44c	InitChases
+80010adc	InitClouds
+80015190	InitCrateExplosions
+80010f0c	InitCrates
+8004f7fc	InitCreatureModels
+8004f858	InitCreatures
+8001fea4	InitCredits
+800205ac	InitCutScenes
+800d4ac4	initd3d
+80023608	InitDeb3
+80075b00	InitEarthBoss
+80048a94	InitEnemyJeep
+80048cfc	InitEnemyJeeps
+8004a34c	InitFireBoss
+80027974	InitFont3D
+80021840	InitGameCut
+8003cf70	InitGameDebris
+8003b140	InitGameMode
+800625ac	InitGlider
+8006d2b4	InitGliderBombs
+800692a0	InitGliderBullets
+80061098	InitGlobalSfx
+8006dc20	InitGunBoat
+8006dd3c	InitGunBoats
+80067758	InitHova
+80067930	InitialiseHovaBlimps
+800d1354	InitialiseShaders
+800ff918	InitializeUART
+80078fa4	InitJeepRocks
+8003a854	InitLevel
+80060d54	InitLevelSfxTables
+800728e0	InitLighteningHail
+8004f314	InitLoadSaveDeleteScreen
+8006117c	InitLocalSfx
+8003b928	InitObjectTable
+800aeddc	InitOverrideMtl
+800c5a84	InitPadPlayRecord
+800c6938	InitParam
+8004fa0c	InitParticleSystem
+80050db8	InitPauseRender
+8006a1e0	InitPlane
+800534cc	InitPlayerEvents
+8002da0c	InitPositions
+80028ebc	InitProbe
+80009bc4	InitRails
+80022dac	InitRandSFX
+800c1f04	InitRenderTargets__Fv
+80077208	InitRumblePanel
+800682a4	InitSatellite
+800ad8e8	InitSkinning
+80068748	InitSpaceStation
+800689b0	InitSpaceStations
+800aed6c	InitSpecular
+8003b2ac	InitSplineTable
+8004f584	InitTexAnimScripts
+8007855c	InitTrail
+8002be5c	InitVehicleToggles
+8007a174	InitVehMask
+8007a140	InitVehMasks
+800bccfc	initWater
+800bcc78	initWaterGeom
+80072dc8	InitWBBolts
+800734dc	InitWBIntro
+80070054	InitWeatherBoss
+8006fe64	InitWeatherBoss_a
+800630c8	InitWeatherBossTarget
+8004faf0	InitWorld
+8002ebc8	InitWumpa
+800c595c	InitXboxEffectSystem
+800c599c	InitXboxGSceneEffects
+80065918	InitZoffa
+80065aa4	InitZoffaUFOs
+8003ce34	InLoadSaveZone
+80031128	InputNewLetter
+800dd734	InsertAlarm
+80092698	InsideLineF
+8009272c	InsidePolLines
+8000b0f8	InSplineArea
+800451c4	InstAnimDataLoad
+800452c4	InstClose
+80045288	InstInit
+8008a004	instNuCGutCamSysCreate
+8008bb64	instNuCGutCharSysCreate
+8008b260	instNuCGutRigidSysCreate
+8008c2a8	instNuCGutTriggerSysCreate
+8008a5b0	instNuGCutCamSysStart
+8008a0b4	instNuGCutCamSysUpdate
+8008bc8c	instNuGCutCharSysRender
+8008ae90	instNuGCutDebrisLocatorUpdate
+8008abe8	instNuGCutLocatorSysStart
+8008ab0c	instNuGCutLocatorSysUpdate
+8008ae0c	instNuGCutLocatorUpdate
+8008b890	instNuGCutRigidSysRender
+8008b63c	instNuGCutRigidSysStart
+8008b678	instNuGCutRigidSysUpdate
+80089f5c	instNuGCutSceneCalculateCentre
+80089b64	instNuGCutSceneClipTest
+800898d8	instNuGCutSceneCreate
+80089a28	instNuGCutSceneDestroy
+80089b34	instNuGCutSceneEnd
+80089e34	instNuGCutSceneRender
+80089b5c	instNuGCutSceneSetEndCallback
+80089a94	instNuGCutSceneStart
+80089c0c	instNuGCutSceneUpdate
+8008c41c	instNuGCutTriggerSysStart
+8008c334	instNuGCutTriggerSysUpdate
+800200f0	InstNuGHGRead
+80020744	InstNuGScnRead
+
+80045108	InstSceneLoad
+8004f4d4	InvalidateSaveSlots
+800aef98	isGlassInstance
+800d61a8	ISIentry
+8004f8a8	IsTitleScreen
+800bcc00	isWaterInstance
+
+800d9518	itoa
+800c6f60	JBCallback
+
+800483ec	JeepCam
+800479f0	JeepCamFollowAng
+800481f8	JeepCamIntro
+
+80024330	JonExtraDraw
+80024314	JonMaskFPS
+80075bbc	JonnyParticles
+8004a720	JonnySteam
+80028ee8	JonProbe
+
+80061e3c	JStrLen
+80009af4	JudderGameCamera
+80078fcc	KeepHoldOnRock
+
+80075a88	KillAtlasphere
+80041f94	KillGameObject
+8004181c	KillItem
+80042bf4	KillPlayer
+
+800de814	L2GlobalInvalidate
+
+800ba5e4	LabTabFind
+80024770	LaunchObjects
+800de7ec	LCDisable
+
+8007b0bc	LimitAng360f
+80047710	LimitCam
+8004596c	LimitSpeedZbyXZ
+8003bcf8	LineCrossed
+8006c3c4	LinesIntersectEllipse
+800c5d68	LinkDmaParticalSets
+
+80003338	LoadAI
+8004959c	LoadBuggyData
+8001816c	LoadCharacterModel
+800186c4	LoadCharacterModels
+80020804	LoadCutComponents
+80020b44	LoadCutMovie
+80020198	LoadCutSceneCharacters
+8004f7a8	LoadFont3D
+80051238	LoadGBABG
+800cfc14	LoadIconC8
+800504b0	LoadLevel
+8004c534	LoadLights
+8004eac8	loadsaveCallEachFrame
+800cf9b8	LoadTexPalette
+80078f2c	LoadVehicleStuff
+800c2db8	LoadWaterCausticTextures
+8004967c	LoadWesternArenaData
+8002eacc	LoadWumpa
+800db718	localeconv
+800204e8	locatorfn_fadeout
+80103318	log				(double __stdcall)
+80103090	log10				(double __stdcall)
+80083198	LookupDebrisEffect
+8000af5c	LookUpDownRail
+8008a9e0	LookupLocatorFn
+80030fac	LoseMask
+80012e90	LowestActiveCrate
+80012e14	LowestCrate
+
+8005038c	MAHLoadingMessage
+800519c8	main
+80022388	MakeDirLightColour
+8003122c	MakeEditText
+8003808c	MakeLevelTimeString
+800223ac	MakeLightDirection
+80030254	MakeMaskMatrix
+800c2d7c	makenuvec
+800c2d98	makenuvec4
+80037f0c	MakeTimeI
+800d4b34	malloc			(void *__stdcall)
+800be71c	malloc_x
+80017768	ManageCreatures
+800514a0	Managememcard
+800cf554	MatMult
+800cf81c	MatReorder
+8005b57c	MaxVP
+800d0718	MC_Check
+800d0384	MC_Init
+800d0e24	MemCardDelete
+800d0de8	MemCardRetry
+800dae18	memchr			(void *__stdcall)
+800daed8	memcmp			(int __stdcall)
+800daf68	memcpy			(void *__stdcall)
+800dff40	MEMIntrruptHandler
+801047d8	memmove			(void *__stdcall)
+800db00c	memset			(void *__stdcall)
+
+800cd428	MIXInit
+800cd480	MIXInitChannel
+800cd944	MIXReleaseChannel
+800cd960	MIXSetInput
+
+80018070	ModelAnimDuration
+800757ac	MoveAtlas
+800555e0	MoveCOCO
+80053a44	MoveCRASH
+80005508	MoveCreature
+800577f8	MoveFIREENGINE
+8000b198	MoveGameCamera
+80064dcc	MoveGlider
+80057be8	MoveGYRO
+80040c5c	MoveLoopXZ
+80056fd4	MoveMECH
+80058a4c	MoveMINECART
+80059e00	MoveMINETUB
+800569b8	MoveOFFROADER
+8006a32c	MovePlane
+800195d0	MovePlayer
+800459e8	MovePlayerJeep
+8000a678	MoveRailPosition
+80056140	MoveSCOOTER
+800564d8	MoveSNOWBOARD
+800587dc	MoveSUBMARINE
+80055308	MoveSWIMMING
+800591c4	MoveTub
+80062118	MoveVehicle
+800663e0	MoveZoffaUFO
+
+800fdb7c	MWCallback
+
+8007b370	MyAnimateModelNew
+8007c304	MyCast
+8007b3f8	MyChangeAnim
+8007b2d4	MyDrawModelNew
+8007a7f8	MyGameSfx
+8007a838	MyGameSfxLoop
+8007a878	MyGameSfxLoopVolPitch
+8007b254	MyInitModelNew
+8007b3c4	MyResetAnimPacket
+
+8000f300	NearestChaserDistance
+8003b560	NearestSplinePoint
+800195bc	NewBuzz
+80095e9c	NewCast
+80019020	NewCharacterIdle
+80011050	NewCrateAnimation
+80021fc8	NewCut
+80049aac	NewFadeOutLastTrail
+80049da0	NewFindTrailAng
+80038a28	NewGame
+80021978	NewGameCutAnim
+8004538c	NewGenerateJeepMatrix
+80049a70	NewInitTrail
+80061c64	NewLanguage
+800385d4	NewLevelTime
+80030178	NewMask
+80031a5c	NewMenu
+800a2d3c	NewPlatInst
+800a28c8	NewRayCast
+800a2b00	NewRayCastMask
+800a94b8	NewRayCastPlatForm
+800a77a8	NewRayCastSetHandel
+80019580	NewRumble
+80092d0c	NewScan
+800a6318	NewScanHandel
+800a3478	NewScanHandelFull
+800a50e0	NewScanHandelSubset
+800a3448	NewScanInit
+80094148	NewScanRot
+80049b74	NewSetTrailPos
+800a1358	NewShadow
+800a140c	NewShadowMask
+800a1578	NewShadowMaskPlat
+800a1630	NewShadowMaskPlatRot
+800a14c4	NewShadowPlat
+800a2174	NewTerrainScaleY
+8003f8b8	NewTopBot
+80010ee4	NextCrate
+8005be0c	NextLetter
+800346dc	NextMenuEntry
+80091114	noterraininit
+
+800c13a8	NuAngSub
+800ac0a0	NuAnimCurve2CalcVal
+800aa1e8	NuAnimCurve2SetApplyToJoint
+800aa71c	NuAnimCurve2SetApplyToJointBasic
+800ac51c	NuAnimCurve2SetApplyToMatrix
+800a9f74	NuAnimCurveCalcVal2
+800a9e9c	NuAnimCurveCreate
+800a9f34	NuAnimCurveDestroy
+800ab368	NuAnimCurveSetApplyBlendToJoint2
+800aaa24	NuAnimCurveSetApplyToJoint2
+800ab01c	NuAnimCurveSetApplyToJointBasic
+800abb64	NuAnimCurveSetApplyToMatrix
+800aa0d4	NuAnimCurveSetCreate
+800aa164	NuAnimCurveSetDestroy
+800a9d60	NuAnimData2CalcTime
+800ac3d8	NuAnimData2FixPtrs
+800a9c24	NuAnimDataCalcTime
+800a9a28	NuAnimDataChunkCreate
+800a9b98	NuAnimDataChunkDestroy
+800a9ac0	NuAnimDataCreate
+800a9b2c	NuAnimDataDestroy
+800abe00	NuAnimDataFixPtrs
+800abff8	NuAnimDataLoadBuff
+800a9768	NuAnimDataRead
+800b02ac	NuAnimUV
+800c1260	NuAtan2
+800c12fc	NuAtan2D
+800c11c4	NuAtani
+8008e10c	NuBrdigeDrawRope
+8008c8bc	NuBridgeAlloc
+8008c95c	NuBridgeCreate
+8008e1a4	NuBridgeDraw
+8008c948	NuBridgeInit
+8008c8fc	NuBridgeLookupInstanceIndex
+8008c954	NuBridgeOn
+8008c8f4	NuBridgeRegisterBaseScene
+8008cd64	NuBridgeUpdate
+800ac788	NuCameraCalcFrustrumPlanes
+800ad34c	NuCameraClipTestBoundingSphere
+800ad0d8	NuCameraClipTestExtents
+800ad41c	NuCameraClipTestPoints
+800ac708	NuCameraCreate
+800ad588	NuCameraDistSqr
+800ad7fc	NuCameraEnableClipping
+800acee0	NuCameraGetMtx
+800acef8	NuCameraGetProjectionMtx
+800aceec	NuCameraGetViewMtx
+800acf04	NuCameraGetVPCSMtx
+800acb3c	NuCameraSet
+800acff4	NuCameraTransformClip
+800ad804	NuCameraTransformScreenClip
+800acf10	NuCameraTransformView
+8008aa68	NuCGutLocatorSysCreateInst
+800be058	NuDatClose
+800bd740	NuDatFileClose
+800bd728	NuDatFilePo
+800bd730	NuDatFileRead
+800bd738	NuDatFileSeek
+800d4228	NuDatOpenMem
+800d4230	NuDatSet
+800c1fbc	NudxFw_BeginScene
+800c1ffc	NudxFw_Clear
+800c1c9c	NudxFw_DestroyBackBufferCopy
+800c2024	NudxFw_FlipScreen
+800c20c0	NudxFw_GetBackBuffer
+800c1cdc	NudxFw_GetBackBufferCopyTID
+800c20c8	NudxFw_GetZBuffer
+800c1cec	NudxFw_Init
+800c1ca0	NudxFw_MakeBackBufferCopy
+800c1ce4	NudxFw_SetBackBufferCopied
+800c2078	NudxFw_SetRenderState
+800c1fb4	NudxFw_SetRenderTargetSurface
+800c209c	NudxFw_SetTextureState
+800ced3c	NudxTx_Create
+800bc280	NuDynamicWaterCalcShaderUVOffsets
+800bbd60	NuDynamicWaterClose
+800bc40c	NuDynamicWaterCycleTextures
+800bc478	NuDynamicWaterExcite
+800bbdd0	NuDynamicWaterInit
+800bc190	NuDynamicWaterRender2dRect
+800bc408	NuDynamicWaterSetVertexShaderUVOffsets
+800bc780	NuDynamicWaterUpdate
+800bd358	NuErrorFunction
+800bd43c	NuErrorProlog
+
+800be864	NuFabs
+800afec8	NuFaceOnGeomCreate
+800be798	NuFdiv
+800bded4	NuFileBeginBlkRead
+800bd648	NuFileClose
+800bdfec	NuFileEndBlkRead
+800bd4c0	NuFileExists
+800bd450	NuFileGetBadGameDisc
+800bd458	NuFileInitEx
+800bda78	NuFileLoad
+800bdaf0	NuFileLoadBuffer
+800bd52c	NuFileOpen
+800bd93c	NuFilePos
+800bdbdc	NuFileRead
+800bdea4	NuFileReadChar
+800bde14	NuFileReadFloat
+800bde4c	NuFileReadInt
+800bde78	NuFileReadShort
+800bd994	NuFileSeek
+800bda00	NuFileSize
+800be488	NuFParClose
+800be578	NuFParCreate
+800be540	NuFParDestroy
+800be358	NuFParGetInt
+800be18c	NuFParGetLine
+800be290	NuFParGetWord
+800be3cc	NuFParInterpretWord
+800be4a8	NuFParOpen
+800be39c	NuFParPushCom
+800be8bc	NuFpDiv
+800be888	NuFsign
+800be774	NuFsqrt
+
+80089ee0	NuGCutCamsSysFixPtrs
+8008bd3c	NuGCutCharAnimProcess
+8008ba40	NuGCutCharSysFixPtrs
+8008bb34	NuGCutCharSysFixUp
+8008a714	NuGCutLocatorCalcMtx
+8008a934	NuGCutLocatorIsVisble
+8008a60c	NuGCutLocatorSysFixPtrs
+8008ac24	NuGCutLocatorSysFixUp
+8008b3b4	NuGCutRigidCalcMtx
+8008b0c8	NuGCutRigidSysFixPtrs
+8008b19c	NuGCutRigidSysFixUp
+80089850	NuGCutSceneFixUp
+800896d4	NuGCutSceneLoad
+80089610	NuGCutSceneSysInit
+80089684	NuGCutSceneSysRender
+80089620	NuGCutSceneSysUpdate
+8008c120	NuGCutTriggerSysFixPtrs
+8008c1d4	NuGCutTriggerSysFixUp
+800b00c8	NuGeomAddPrim
+800b0100	NuGeomAddSkin
+800afe84	NuGeomCreate
+800aff78	NuGeomCreateVB
+800aff0c	NuGeomDestroy
+800b0084	NuGeomDestroyVB
+800be0d4	NuGetChar
+800c4650	NuGetFrameAdvance
+800af348	NuGlassClose
+800af31c	NuGlassInit
+800af2b8	NuGlassLoad
+800aeffc	NuGlassProcessScene
+800af620	NuGlassRenderStatic
+800af8dc	NuGobjAddFaceOnGeom
+800af8a4	NuGobjAddGeom
+800c5bd0	NuGobjAverageTextureSpaceVerts
+800afbdc	NuGobjCalcDims
+800af914	NuGobjCalcFaceOnDims
+800af758	NuGobjClose
+800af7b0	NuGobjCreate
+800af820	NuGobjDestroy
+800af700	NuGobjInit
+800b8d00	NuGSceneDestroy
+800c2fd8	NuGScnRndr3
+800c437c	NuGScnUpdate
+
+
+800b0668	NuHazeClose
+800b031c	NuHazeCreateDepthTexture
+800b03d4	NuHazeInit
+800b0680	NuHazeSetHazeConstants
+800b06f8	NuHGobjCreate
+800b0928	NuHGobjDestroy
+800b0748	NuHGobjDestroyDynamic
+800b6ba8	NuHGobjEval
+800b5a04	NuHGobjEvalAnim
+800b57d8	NuHGobjEvalAnim2
+800b5c68	NuHGobjEvalAnimBlend
+800c3dc0	NuHGobjEvalDwa
+800c41f0	NuHGobjEvalDwa2
+800c3f50	NuHGobjEvalDwaBlend
+800b14a8	NuHGobjGetPOI
+800b0950	NuHGobjLoad
+800b1440	NuHGobjPOIMtx
+800b09d0	NuHGobjRead
+800b5538	NuHGobjRndr
+800b6b84	NuHGobjRndrMtx
+800b68a8	NuHGobjRndrMtxDwa
+800c461c	NuInitFrameAdvance
+
+800b1f28	NuLgtArcLaser
+800b206c	NuLgtArcLaserDraw
+800b1f0c	NuLgtRand
+800b2a94	NuLgtSetArcMat
+800b1e5c	NuLightAddSpotXSpanFade
+800b1dc8	NuLightClearStoredLights
+800b15a8	NuLightClose
+800b15b8	NuLightCreate
+800b1dd8	NuLightFog
+800b17c8	NuLightGetLight
+800b14dc	NuLightInit
+800b1e7c	NuLightMatInit
+800b17f0	NuLightSetAmbientLight
+800b1868	NuLightSetDirectionalLights
+800b1bc8	NuLightSetStoredLights
+800b1a80	NuLightStoreCurrentLights
+800b1668	NuLightUpdate
+800b06d0	NuLigthSetPolyHazeMat
+8004e9d4	NuLstAlloc
+8004e904	NuLstCreate
+8004e9b4	NuLstDestroy
+8004ea34	NuLstFree
+8004ea94	NuLstGetNext
+
+800be5ec	NuMemAlloc
+800bd744	NuMemFileClose
+800bd6b8	NuMemFileOpen
+800bd78c	NuMemFilePos
+800bd7d8	NuMemFileRead
+800bd870	NuMemFileSeek
+800be6fc	NuMemFree
+800be5c8	NuMemSetExternal
+800b2fc0	NuMtlAddFaceonItem
+800b3e90	NuMtlAddGlassItem
+800b2e30	NuMtlAddRndrItem
+800b4284	NuMtlAnimate
+800b3f40	NuMtlClearGlassList
+800b4450	NuMtlClearOt
+800b2b60	NuMtlClose
+800b2bb8	NuMtlCreate
+800b2aac	NuMtlCreateDefault
+800b2c5c	NuMtlDestroy
+800b2ce4	NuMtlGet
+800b3154	NuMtlGet2dBuffer
+800b3290	NuMtlGet3dBuffer
+800b2b20	NuMtlInit
+800b2d60	NuMtlInsert
+800b2cdc	NuMtlNum
+800b30c8	NuMtlOTInsert
+800b2d18	NuMtlRead
+800b2dec	NuMtlRemove
+800b33c8	NuMtlRender
+800b353c	NuMtlRender3d
+800b35ec	NuMtlRenderDynamic2d3d
+800b3844	NuMtlRenderFaceOn
+800b3c0c	NuMtlRenderGlass
+800b3750	NuMtlRenderOT
+800b3d30	NuMtlRenderSten
+800b3f7c	NuMtlRenderUpd
+800b3c9c	NuMtlRenderWater
+800b3fbc	NuMtlSetRenderStates
+800b2e28	NuMtlSetStencilRender
+800b2e24	NuMtlUpdate
+800b42f0	NuMtlUVAnimation
+800c0580	NuMtxAddR
+800c023c	NuMtxAlignZ
+800c07c0	NuMtxCalcCheapFaceOn
+800c0888	NuMtxCalcDebrisFaceOn
+800becf4	NuMtxGetScale
+
+800bfb9c	NuMtxInv
+800bfe58	NuMtxInvH
+800bfc58	NuMtxInvR
+800bfcd0	NuMtxInvRSS
+800c050c	NuMtxLookAtZ
+800bf2a0	NuMtxMul
+800bf55c	NuMtxMulH
+800bf910	NuMtxMulR
+800c06b8	NuMtxOrth
+800beee0	NuMtxPreRotateX
+800bf020	NuMtxPreRotateY
+800bf140	NuMtxPreRotateZ
+800bedac	NuMtxPreScale
+800beb9c	NuMtxPreTranslate
+800bee40	NuMtxRotateX
+800bef60	NuMtxRotateY
+800bf0a0	NuMtxRotateZ
+800bec30	NuMtxScale
+800be8dc	NuMtxSetIdentity
+800bf1c0	NuMtxSetRotateXYZ
+800bea0c	NuMtxSetRotationX
+800bea80	NuMtxSetRotationY
+800beaf4	NuMtxSetRotationZ
+800be9ac	NuMtxSetScale
+800be94c	NuMtxSetTranslation
+800c0640	NuMtxSkewSymmetric
+800c0a04	NuMtxToQuat
+800beb68	NuMtxTranslate
+800bfb18	NuMtxTranspose
+
+800c0934	NuPlnLine
+800b0138	NuPrimCreate
+800b01bc	NuPrimDestroy
+800aed30	NuPs2CreateSkin
+800aeaa8	NuPs2CreateSkinNorm
+800c435c	NuPs2Init
+800c3450	NuPs2OpenPad
+800c5bc4	NuPs2PadDemoEnd
+800c34e8	NuPs2PadSetMotors
+800c35f4	NuPs2ReadPad
+800c0cf4	NuQuatMul
+800c0ddc	NuQuatNormalise
+800c0ea4	NuQuatSlerp
+800c0c18	NuQuatToMtx
+
+800c1028	NuRand
+800c10a0	NuRandFloat
+800c1098	NuRandSeed
+800b6040	NuRndr2dItem
+800b6eb0	NuRndrAddFootPrint
+800b7c84	NuRndrAddShadow
+800b7878	NuRndrAddWaterRipple
+800b6dfc	NuRndrAnglesZX
+800b44b0	NuRndrBeginScene
+800b6668	NuRndrBlendedSkinItem
+800b4594	NuRndrClear
+800b7348	NuRndrCreateBlendShapeDeformerWeightsArray
+800b73b8	NuRndrCreateBlendShapeDWAPointers
+800b4530	NuRndrEndScene
+800b60d0	NuRndrFaceItem
+800b4570	NuRndrFlush
+800b7180	NuRndrFootPrints
+800b7458	NuRndrFx
+800b638c	NuRndrGeomItem
+800b4674	NuRndrGobj
+800b4d50	NuRndrGobjSkin2
+800b4a58	NuRndrGrassGobj
+800c31c8	NuRndrGScnObj
+800b4484	NuRndrInit
+800c2fb8	NuRndrInitEx
+800b742c	NuRndrInitWorld
+800b5f38	NuRndrItem
+800b5eec	NuRndrItemDist
+800c4a18	NuRndrParticleGroup
+800c47f0	NuRndrRect2di
+800c4818	NuRndrRectUV2di
+800b7d44	NuRndrShadPolys
+800b6570	NuRndrSkinItem2
+800b52e4	NuRndrStrip3d
+800b45e0	NuRndrSwapScreen
+800b7478	NuRndrTrail
+800b4f90	NuRndrTri2d
+800b510c	NuRndrTri3d
+800b78ec	NuRndrWaterRip
+800b7b54	NuRndrWaterRippleUpdate
+
+800c5c00	NuSceneAverageTextureSpaceVerts
+800b91a0	NuSceneCalcCulling
+800b8df8	NuSceneDestroy
+800b951c	NuSceneLoad
+800b818c	NuSceneMtlUpdate
+800c2ee8	NuSceneReader
+800c2f50	NuSceneReader2
+800c31ec	NuScratchAlloc32
+800c3220	NuScratchRelease
+8008c110	NuSetCutSceneCharacterRenderFn
+8008c118	NuSetCutSceneFindCharactersFn
+800d4124	NuSetShaderState
+800d1004	NuShaderAssignShader
+800d13d4	NuShaderSetBypassShaders
+800d1444	NuShaderSetColourConstants
+800d4220	NuShaderSetGlassMix
+800d14f8	NuShaderSetLightConstants
+800d13dc	NuShaderSetSkinningConstants
+800c20d0	NuSoundApply3d
+800c2320	NuSoundFindLoopInfo
+800c23d0	NuSoundInit
+800c23a0	NuSoundInitLoopInfo
+800c2908	NuSoundKeyStatus
+800c2874	NuSoundKillAllAudio
+800c2788	NuSoundLocalSet
+800c28a0	NuSoundPauseSfx
+800c23f0	NuSoundPlay
+800c24c4	NuSoundPlay3d
+800c2524	NuSoundPlay3dLoopSfx
+800c28e0	NuSoundPlayChan
+800c2414	NuSoundPlayLoop
+800c25f0	NuSoundPlayStereo
+800c261c	NuSoundPlayStereo2
+800c28c0	NuSoundResumeSfx
+800c27a8	NuSoundSetLevelAmbience
+800c2648	NuSoundStopStream
+800c2670	NuSoundUpdate
+800c5920	NuSpecialDrawAt
+800c3148	NuSpecialFind
+800c30d4	NuSplineFind
+8000e3b8	NuSplineFindPartial
+800bdddc	NuStartLoadScreen
+800bde00	NuStopLoadScreen
+
+800bb7f4	NuTexAnimAddList
+800ba364	NuTexAnimEnvCreate
+800bb138	NuTexAnimEnvProc
+800bb8a4	NuTexAnimProcess
+800bb7ac	NuTexAnimProcessList
+800ba238	NuTexAnimProgAssembleEnd
+800ba188	NuTexAnimProgFind
+800ba1dc	NuTexAnimProgInit
+800baf0c	NuTexAnimProgReadScript
+800ba124	NuTexAnimProgSysInit
+800bb830	NuTexAnimRemoveList
+800bb7ac	NuTexAnimSetSignals
+800bb07c	NuTexAnimXCall
+800b97e8	NuTexClose
+800b9858	NuTexCreate
+800b9948	NuTexCreateFromSurface
+800b99cc	NuTexDestroy
+800b992c	NuTexGetDecalInfo
+800b9ac0	NuTexImgSize
+800b9788	NuTexInit
+800ba11c	NuTexLoadTextureFromDDSFile
+800b9b04	NuTexPalSize
+800b9a50	NuTexPixelSize
+800ba0c0	NuTexReadBitmap
+800b9d34	NuTexReadBitmapMM
+800b9cf8	NuTexSetTexture
+800b9b2c	NuTexSetTextureStates
+800b9a20	NuTexUnRef
+800c10e4	NuTrigInit
+
+800c1c1c	NuVec4MtxInvTransform
+800c1b7c	NuVec4MtxTransform
+800be7c0	NuVec4MtxTransformVU0
+800c1b48	NuVec4Scale
+800c173c	NuVecAdd
+800c1800	NuVecCross
+800c1968	NuVecDist
+800c19c8	NuVecDistSqr
+800c1840	NuVecDot
+800c15f4	NuVecInvMtxRotate
+800c1578	NuVecInvMtxTransform
+800c1868	NuVecMag
+800c18a4	NuVecMagSqr
+800c1514	NuVecMtxRotate
+800c13c0	NuVecMtxTransform
+800c143c	NuVecMtxTransformH
+800c18c0	NuVecNorm
+800c1658	NuVecRotateX
+800c16a4	NuVecRotateY
+800c16f0	NuVecRotateZ
+800c17a4	NuVecScale
+800c17cc	NuVecScaleAccum
+800c1770	NuVecSub
+800c1a28	NuVecXZDist
+800c1ab8	NuVecXZDistSqr
+800bbb28	NuVpGetClippingMtx
+800bbd54	NuVpGetCurrentViewport
+800bbba0	NuVpGetScalingMtx
+800bb8e8	NuVpInit
+800bbc18	NuVpSetClippingMtx
+800bbc40	NuVpSetScalingMtx
+800bba44	NuVpSetSize
+800bbae0	NuVpUpdate
+800b0204	NuVtxStride
+
+800bd000	NuWaterClose
+800bcf38	NuWaterInit
+800bcf0c	NuWaterLoad
+800bd238	NuWaterRender
+800bd214	NuWaterSetup
+800bd224	NuWaterSpeed
+8008e554	NuWindAllocateGrp
+8008e59c	NuWindAllocMtxs
+8008e5e8	NuWindCreate
+8008efc4	NuWindDraw
+8008e584	NuWindFreeGrp
+8008e5d0	NuWindFreeMtxs
+8008e538	NuWindInit
+8008e51c	NuWindRand
+8008e814	NuWindUpdate
+800c2758	NuXboxSoundUpdate
+
+
+8003e470	ObjectCylinderCollision
+80041210	ObjectRotation
+80075a10	ObjectToAtlas
+800ac09c	okdokey
+8003f8dc	OldTopBot
+
+800dff04	OnReset
+800ea2a8	OnReset
+800efe70	OnReset
+801017c0	OnReset
+
+80038db4	OpenGame
+800111d0	OpenPreviousCheckpoints
+
+800dde30	OSAllocFromHeap
+800dd9ec	OSCancelAlarm
+800e1814	OSCancelThread
+800de094	OSCheckHeap
+800def24	OSClearContext
+800dd728	OSCreateAlarm
+800de028	OSCreateHeap
+800dd63c	OSDefaultExceptionHandler
+800df684	OSDisableInterrupts
+800e1300	OSDisableScheduler
+800def48	OSDumpContext
+800df698	OSEnableInterrupts
+800e1340	OSEnableScheduler
+800dd2c8	OSExceptionInit
+800dd5a0	OSExceptionVector
+800ddf2c	OSFreeToHeap
+800de400	OSGetArenaHi
+800de408	OSGetArenaLo
+800dce44	OSGetConsoleType
+800dedb8	OSGetCurrentContext
+800e12f4	OSGetCurrentThread
+801048c4	OSGetFontEncode
+800e06ac	OSGetResetButtonState
+800e0588	OSGetResetCode
+800def1c	OSGetStackPointer
+800e1fd0	OSGetTick
+800e1fb8	OSGetTime
+800e1008	OSGetWirelessID
+800dcf78	OSInit
+800dd6dc	OSInitAlarm
+800ddfb8	OSInitAlloc
+800e12e4	OSInitThreadQueue
+800dee44	OSLoadContext
+800ded4c	OSLoadFPUContext
+800df33c	OSPanic
+800de3f4	OSReferentSize
+800e01e4	OSRegisterResetFunction
+800df2bc	OSReport
+800e0320	OSResetSystem
+800df6ac	OSRestoreInterrupts
+800e19d0	OSResumeThread
+800dedc4	OSSaveContext
+800ded54	OSSaveFPUContext
+800dd984	OSSetAlarm
+800de410	OSSetArenaHi
+800de418	OSSetArenaLo
+800ded5c	OSSetCurrentContext
+800ddfa8	OSSetCurrentHeap
+800df468	OSSetErrorHandler
+800e108c	OSSetWirelessID
+800e1dc8	OSSleepThread
+800e1c58	OSSuspendThread
+800df1f0	OSSwitchFPUContext
+800e21d8	OSTicksToCalendarTime
+800e1eb4	OSWakeupThread
+
+800c77e0	PadCheck
+800e8a8c	PADClamp
+800e9ab0	PADControlAllMotors
+800e94f4	PADInit
+800e8d38	PADOriginCallback
+800e8dfc	PADOriginUpdateCallback
+800e8ebc	PADProbeCallback
+800e9704	PADRead
+800e92c0	PADReceiveCheckCallback
+800e93f4	PADReset
+800ea49c	PADSetSamplingCallback
+800e9b68	PADSetSpec
+800e8f94	PADTypeAndStatusCallback
+800ba500	ParGetCC
+800d0d1c	ParseNintendoErrorCode
+800895e0	ParticleReset
+800507c8	PauseGame
+80061524	PauseGameAudio
+80050790	PauseRumble
+
+
+
+800d5004	PCread				(Thunked-Function: snFSNotAvailable)
+800d500c	PCwrite				(Thunked-Function: snFSNotAvailable)
+800bac04	pftaBtex
+800baea0	pftaEnd
+800bacbc	pftaGosub
+800bab24	pftaGoto
+800baa70	pftaLabel
+800baa28	pftaOff
+800ba9e0	pftaOn
+800ba954	pftaRate
+800bad54	pftaRepeat
+800badec	pftaRepend
+800bad2c	pftaRet
+800baec8	pftaScriptname
+800ba7bc	pftaTex
+800ba818	pftaTexAdj
+800bae14	pftaUntiltex
+800ba8c8	pftaWait
+800baabc	pftaXDef
+800bab94	pftaXRef
+
+
+8006217c	PickGliderTarget
+8004190c	PickupBonusGem
+800418a4	PickupCrateGem
+8004183c	PickupCrystal
+80041a6c	PickupItem
+80041978	PickupPower
+
+800a03c8	PlatformChecks
+8009daf0	PlatformConnect
+800a3420	PlatformCrush
+800a3378	PlatImpactInfo
+800a31d8	PlatInstBounce
+800a32c0	PlatInstGetHit
+800a3194	PlatInstRotate
+80021340	PlayCutMovie
+8003eab0	PlayerCreatureCollisions
+800493ac	PlayerHitBuggies
+80005348	PlayerLateralInRange
+800053b4	PlayerLateralOutOfRange
+8003ba38	PlayerObjectAnimCollision
+80018ac8	PlayerStartPos
+80022dbc	PlayRandSFX
+800cc180	PlayStream
+
+8003b5f8	PointAlongSpline
+80078668	PointLineSide
+800787dc	PointsSame
+8006bc7c	PossIntersect
+800d6ce0	pow				(double __stdcall)
+800bcbe0	Powr2
+
+800dce08	PPCHalt
+800dcde0	PPCMfhid0
+800dce2c	PPCMfhid2
+800dcde8	PPCMfl2cr
+800dcdd0	PPCMfmsr
+800dcdf8	PPCMtdec
+800dce34	PPCMthid2
+800dcdf0	PPCMtl2cr
+800dce1c	PPCMtmmcr0
+800dce24	PPCMtmmcr1
+800dcdd8	PPCMtmsr
+800dce3c	PPCMtwpar
+800dce00	PPCSync
+
+800c68d4	PrepareClientImage
+800d92ec	printf				(int __stdcall)
+80026998	ProcDeb3
+80067f88	ProcessAllHovaBlimps
+8006b6c4	ProcessAsteroid
+8006bb34	ProcessAsteroids
+80075400	ProcessAtlas
+80078514	ProcessAtlasAtlasCollisions
+800781d8	ProcessAtlasAtlasCollisions_a
+80078b34	ProcessAtlasTrail
+8006f988	ProcessBattleShip
+8006fdfc	ProcessBattleShips
+80070074	ProcessBazookaToken
+8006ecb8	ProcessBigGun
+8006f1b8	ProcessBigGuns
+80071c5c	ProcessCrashteroidsIntro
+8001cfd0	ProcessCreatures
+800760ec	ProcessEarthBossActions
+80077d54	ProcessEarthBossLevel
+80077d14	ProcessEarthBossVortex
+80048b94	ProcessEnemyJeep
+8004930c	ProcessEnemyJeeps
+8006a5e8	ProcessFarmLevel
+8004a7a0	ProcessFireBoss
+8004c030	ProcessFireBossLevel
+80071c7c	ProcessFireFlyIntro
+800721e8	ProcessFireFlyLevel	
+8004c49c	ProcessGenericTrail
+800af3e8	ProcessGlass
+8006d610	ProcessGliderBombs
+8006a040	ProcessGliderBullets
+80063ff0	ProcessGliderMovement
+80064be0	ProcessGliderMovementWB
+8006dffc	ProcessGunBoat
+8006e568	ProcessGunBoats
+80067be0	ProcessHovaBlimp
+80046928	ProcessJeepMovement
+800797d0	ProcessJeepRock
+80079acc	ProcessJeepRocks
+80049ddc	ProcessJeepTrail
+8004a23c	ProcessJeepTrails
+800729f4	ProcessLighteningHail
+80073fa8	ProcessMovementAtlas
+8007456c	ProcessPlatformsAtlas
+80079d08	ProcessRockRockCollisions
+80077214	ProcessRumblePanel
+800684		ProcessSatellite
+80068690	ProcessSatellites
+80072600	ProcessSpaceArenaLevel
+80068ca8	ProcessSpaceStation
+800691e4	ProcessSpaceStations
+8007b208	ProcessTimer
+80067a8c	ProcessTornado
+80073860	ProcessVehicleLevel
+8007a344	ProcessVehMasks
+80073000	ProcessWBBolts
+800736c0	ProcessWBIntro
+80071240	ProcessWeatherBoss
+800702e4	ProcessWeatherBoss_a
+800735f8	ProcessWeatherBossLevel
+80063294	ProcessWeatherBossTarget
+80072464	ProcessWeatherResearchLevel
+80049858	ProcessWesternArenaLevel
+80031d78	ProcMenu
+
+800e2750	PSMTXIdentity
+800e27cc	PSMTXInverse
+800e28c4	PSMTXScale
+800e277c	PSMTXTranspose
+8007dba8	PtInsideFBound
+8007d570	PtInsideSpline
+80018664	PurgeCharacterModels
+
+8002e9cc	qrand
+
+800ceac0	QueryPerformanceCounter
+800d4afc	QueryPerformanceCounter
+800ceaac	QueryPerformanceFrequency
+800d4af4	QueryPerformanceFrequency
+
+8000a9d8	RailInfo
+800d90e0	rand
+800c4750	randy
+800c47a0	randyfloat
+8003bbb4	RatioAlongLine	
+8003bca0	RatioBetweenEdges
+800051a0	RatioDifferenceAlongLine
+8007b05c	Rationalise360f
+800a2784	RayImpact
+800166bc	RayIntersectCuboid
+8003c184	RayIntersectSphere
+
+80023430	RBodyImpact
+800230d4	RBodyInitClasses
+80023194	RBodyMove
+80022f14	RBodySetCubiodClass
+800230ac	RBodySetFakeClass
+80022ffc	RBodySetSphereClass
+
+800d4db0	read				(ssize_t __stdcall)
+800e6538	Read
+800f3f20	ReadArrayUnlock
+800f309c	ReadCallback
+800c6b3c	ReadContext
+800124bc	ReadCrateData
+80011a28	ReadInCrateData
+800c6a10	ReadInitialCode
+800b8240	ReadNuIFFAnimationLibrary
+800b8a9c	ReadNuIFFBlendShape
+800b87cc	ReadNuIFFFaceOnGeom
+800b848c	ReadNuIFFGeom
+800b87ac	ReadNuIFFGeomCntrl
+800b86bc	ReadNuIFFGeomDef
+800b883c	ReadNuIFFGeomPrim
+800b8954	ReadNuIFFGeomSkin
+800b88f4	ReadNuIFFGeomTri
+800b8704	ReadNuIFFGeomVtx
+800b83dc	ReadNuIFFGobjSet
+800b9300	ReadNuIFFGScene
+800b82e0	ReadNuIFFGSplineSet
+800b0a3c	ReadNuIFFHGobj
+800b0c0c	ReadNuIFFHGobjSet
+800b8efc	ReadNuIFFInstSet
+800b80a0	ReadNuIFFMaterialSet
+800b973c	ReadNuIFFNameTable
+800b903c	ReadNuIFFSpecialObjects
+800c575c	ReadNuIFFTexAnimSet
+800b7f00	ReadNuIFFTextureSet
+800b8cfc	ReadNuIFFUnknown
+80102808	ReadProc
+8008f0dc	ReadTerrain
+800e00ac	RealMode
+8007d9dc	ReleaseVisiTable
+8002759c	RemapAccentedCharacter
+80080c6c	RemoveChunkControlFromStack
+800176a0	RemoveCreature
+800815dc	RemoveDebrisEffectFromStack
+8003e078	RemoveGameObject
+800c2ea4	RemoveWaterCausticTextures
+800c4b7c	renderpsdma
+800e0268	Reset					(call FUN_800e026c)
+800278cc	Reset3DFontObjects
+8000357c	ResetAI
+8003a82c	ResetAkuAkuAdvice
+8001f9c0	ResetAnimPacket
+80075328	ResetAtlas
+80029c54	ResetAwards
+8003911c	ResetBonus
+8000916c	ResetBug
+8000ede8	ResetChases
+80037c54	ResetCheckpoint
+8001461c	ResetCrate
+80014698	ResetCrates
+80010ec8	ResetCrateType2
+80003f48	ResetCRUNCHTIME
+80039a68	ResetDeath
+800037e4	ResetDRAINDAMAGE
+800513a4	Reseter
+800c1c64	ResetFwGlobals__Fv
+8002bc84	ResetGame
+80009ab0	ResetGameCameras
+8003df78	ResetGameObject
+800612dc	ResetGameSfx
+8005aad4	ResetGates
+8003a004	ResetGemPath
+8002bd90	ResetHGobjAnim
+800145d4	ResetInvisibility
+8003a7f0	ResetItems
+800471b8	ResetJeep
+8002cf38	ResetKabooms
+8003b288	ResetLevel
+8004c86c	ResetLights
+80031cf0	ResetLoadSaveCharacter
+80030e08	ResetMaskFeathers
+80060508	ResetPanelDebris
+800171f4	ResetPlayer
+800536f8	ResetPlayerEvents
+800170f8	ResetPlayerMoves
+80042d0c	ResetProjectiles
+8005aea0	ResetRings
+800d1330	ResetShaders
+80050194	ResetSuperBuffer
+80050264	ResetSuperBuffer2
+80029698	ResetTempCharacter
+800296d8	ResetTempCharacter2
+80038100	ResetTimer
+80038888	ResetTimeTrial
+80058f94	ResetTub
+80058fc0	ResetTubs
+8002c0c8	ResetVehicleControl
+80073a24	ResetVehicleLevel
+8002ec80	ResetWumpa
+800130b0	RestoreCrateTypeData
+800d5924	restorefp
+800c5d20	restoremenu1
+800c5d4c	restoremenu2
+800d58e0	restorespr
+8005082c	ResumeGame
+80061544	ResumeGameAudio
+800ef278	Retry
+80085f94	reverse_endian_32
+800c5a60	reverseendian16
+800c5a28	reverseendian32
+
+80027490	RockBreak
+8002739c	RockSpark
+8008daf0	ropesegment
+8004e028	RotateDirectionalLight
+800919e4	RotateVec
+8002e9e8	RotDiff
+
+80079e2c	RumbleCam
+800cc0f4	RumbleController
+80077650	RumbleHeadUpDisplay
+800e244c	Run
+
+8006c314	SafeFromCollisions
+80065c30	SafePosition
+800ea43c	SamplingHandler
+80013064	SaveCrateTypeData
+800d09f0	saveloadASCallEachFrame
+800d0c34	saveloadASDelete
+800d0c14	saveloadASFormat
+800d0c28	saveloadASSave
+800d6290	sbrk					(void * __stdcall)
+800d7e94	scalbn					(double __stdcall)
+80104638	scalbnf					(float * __stdcall)
+8004c94c	ScaleColour
+80042c94	ScaleFlatShadow
+8009a2d0	ScanTerrain
+800a63cc	ScanTerrainHandel
+800a7aac	ScanTerrainPlatform
+80092bf8	ScanTerrId
+8007ae80	SeekAngHalfLife
+8007ad2c	SeekAngHalfLife360f
+8007adc0	SeekAngLimHalfLife360f
+8007ab2c	SeekHalfLife
+8007abb0	SeekHalfLifeLim
+8007ac78	SeekHalfLifeNUVEC
+8002ea14	SeekRot
+800e6648	SeekTwiceBeforeRead
+800e15e4	SelectThread
+8004e530	SetCreatureLights
+80020e9c	SetCutMovieRate
+800223f4	SetCutSceneLights
+800e1424	SetEffectivePriority
+800fe07c	SetExiInterruptMask
+800e7924	setFbbRegs
+800cf934	SetIdentity
+800df774	SetInterruptMask
+80051030	SetLevel
+8004e0d8	SetLevelLights
+8004e078	SetLights
+8004e88c	SetNearestLights
+8007a1e8	SetNewMaskStuff
+8007a92c	SetNuQuat
+8007a8bc	SetNuVec
+8007a8f4	SetNuVecPntr
+8007a910	SetNuVecPntrA
+800d0fa8	SetPixelShader
+800ad680	SetProjectionMatrix
+800c1fac	SetRenderTarget__FUl
+8004f640	SetTexAnimSignals
+800d4c7c	SetThreadPriority
+8007881c	SetTrailPos
+8008031c	SetupDebris
+80046fd8	SetUpJeepWheelPositions
+800d1778	SetupShaders
+800d0ea8	SetVertexShader
+800e7bf8	setVerticalRegs
+800ae848	SetVtxSkinData
+800ae984	SetVtxSkinData2
+800732dc	SetWeatherStartPos
+800a1254	ShadowDir
+800a120c	ShadowInfo
+800a1310	ShadowRoofInfo
+800793fc	ShootRoksSkyward
+801014e0	ShortCommandProc
+800ffb88	SIBusy
+80101268	SIDecodeType
+801008d4	SIDisablePolling
+80100838	SIEnablePolling
+80100224	SIEnablePollingInterrupt
+80100a14	SIGetResponse
+80100940	SIGetResponseRaw
+8010072c	SIGetStatus
+80100f68	SIGetType
+8010112c	SIGetTypeAsync
+8010047c	SIInit
+800ffee0	SIInterruptHandler
+800ffba8	SIIsChanBusy
+800d7c24	sin				(double __stdcall)
+801013b4	SIProbe
+801014bc	SIRefreshSamplingRate
+801002bc	SIRegisterPollingHandler
+801007a8	SISetCommand
+801013d8	SISetSamplingRate
+801007cc	SISetXY
+80100b64	SITransfer
+801007bc	SITransferCommands
+80100388	SIUnregisterPollingHandler
+800d4248	SkinnedShader
+800d439c	SkinnedShaderBlend
+800d4c70	Sleep
+80079678	SmashRockIntoTwo
+800d514c	SNDebugInit
+800d4de0	snFileserver
+800d4fb8	snFSNotAvailable
+800d4f44	snInitFileserver
+800d5020	SNMemCpy
+8007e41c	SolveQuadratic
+8004ca18	SortLights
+800ade40	SortPrimdefs
+800724c8	SpaceArenaReset
+8000511c	SpaceCortexFunction_CheckPunch
+80005124	SpaceCortexFunction_Defeated
+80005160	SpaceCortexFunction_TakeHit
+80005068	SpaceCrunchFunction_AttackCortex
+800050a0	SpaceCrunchFunction_CheckCortexBack
+8000501c	SpaceCrunchFunction_NewCount
+80004eb8	SpaceCrunchFunction_NewPoint
+800050a8	SpaceCrunchFunction_PunchCortex
+800e9bc8	SPEC0_MakeStatus
+800e9d3c	SPEC1_MakeStatus
+800e9eb0	SPEC2_MakeStatus
+800ce374	SPGetSoundEntry
+800ce1d0	SPInitSoundTable
+80045414	SpinWheelsJeep
+8003b880	SplineDistance
+8003b4b0	SplinePointAngle
+8003b3c0	SplinePointTilt
+800ce8f4	SPPrepareEnd
+800ce398	SPPrepareSound
+800d9398	sprintf				(int __stdcall)
+800d74f8	sqrt				(double __stdcall)
+800d74f8	sqrtf				(float __stdcall)
+800d74f8	srand				(void __stdcall)
+800cdef4	SS_Init
+800ce018	SS_LoadBank
+800ce108	SS_PauseSFX
+800cdd0c	SS_PlaySFX
+800ce16c	SS_ResumeSFX
+800cdc88	SS_SetChannelPitch
+800cdbb8	SS_SetChannelVolume
+800cdff4	SS_StopAllSFX
+800cd9f0	SS_StopLoopingSFX
+800cd988	SS_StopSFX
+800ce94c	SS_TrackAdd
+800cea4c	SS_TrackFlushAll
+800ce97c	SS_TrackPlay
+800cea2c	SS_TrackSetRepeat
+800ce9c4	SS_TrackStop
+800cc2bc	SS_Update
+800cdc8c	SS_UpdateSFX
+800211f0	StartCutMovie
+800128ac	StartExclamationCrateSequence
+8002bd50	StartHGobjAnim
+80038770	StartTimeTrial
+80038fe8	StartTransporter
+800d5ae8	stashfp
+800d5cac	stashspr
+8008c460	StateAnimEvaluate
+8008c514	StateAnimFixPtrs
+800e45e4	stateBusy
+800e3cdc	stateCheckID
+800e3df4	stateCheckID2
+800e3dc0	stateCheckID3
+800e4124	stateCoverClosed
+800e41f0	stateCoverClosed_CMD
+800e36ec	stateGettingError
+800e3b5c	stateGoToRetry
+800e4290	stateMotorStopped
+800e34d4	stateReadingFST
+800e439c	stateReady
+800e3650	stateTimeout
+80062244	StillLockedOnTarget
+8001d668	StoreLocatorMatrices
+800c5d10	storemenu1
+800c5d30	storemenu2
+800a0114	StorePlatImpact
+800db274	strcasecmp			(Thunked-Function: FUN_800db280)
+800db0a0	strcat				(char * __stdcall)
+800db130	strchr				(char * __stdcall)
+800db1cc	strcmp				(int __stdcall)
+800db308	strcpy				(char * __stdcall)
+StreamClear
+800db38c	strlen				(size_t __stdcall)
+800db3f8	strlwr
+800db51c	strncasecmp			(int __stdcall)
+800db43c	strncmp				(int __stdcall)
+800db5d8	strncpy				(char * __stdcall)
+800d94cc	strrev
+800d9470	strround
+800db6a4	strstr				(char * __stdcall)
+800d92b4	strtol				(long __stdcall)
+800e1138	SystemCallVector
+800d7d04	tan				(double __stdcall)
+80103298	tanf				(float __stdcall)
+80050ce4	TBCODEEND
+80050c78	TBCODESTART
+80050d84	TBDRAWEND
+80050d24	TBDRAWSTART
+800cf2f4	tbsetCreate
+800cf2fc	tbslotBegin
+800cf33c	tbslotEnd
+800fef98	TCIntrruptHandler
+800660cc	TeleportManager
+8007489c	TerrainAtlas
+80018fd8	TerrainFailsafe
+8009dbe0	TerrainImpact
+8009d8c0	TerrainImpactNorm
+8009e23c	TerrainImpactPlatform
+8008f738	terraininit
+8009d7c8	TerrainMoveImpactData
+8009e884	TerrainPlatformEmbedded
+8009e460	TerrainPlatformMoveCheck
+80091364	TerrainPlatformNewUpdate
+8009119c	TerrainPlatformOldUpdate
+800a7a3c	TerrainPlatGetMtx
+800a7a14	TerrainPlatId
+80091174	TerrainSetCur
+800a16e4	TerrainSideClamp
+8007cf1c	TerrainVehicleSoft
+8008f704	TerrFlush
+800a1908	TerrShapeSideStep
+800fd5c4	TEXGet
+800cf988	TEXGetPalette
+800cfbd8	TEXReleasePalette
+80027bc4	Text3D
+800284f0	Text3D2
+800e02d4	thunk_FUN_800e026c		(Thunked-Function: FUN_800e026c)
+80088668	TidyAllEffects
+80045890	TiltJeep
+80045784	TiltSeek
+800ceaf4	timeGetTime
+800ef1d4	TimeoutHandler
+800ceb14	TimerGetFPS
+8002c308	ToggleVehicle
+80104788	tolower
+8007869c	TrailPointInPoly
+80039128	TransporterGo
+8007bbb4	TryUnembeddPointDir
+8007be18	TryUnembeddPointDirSimple
+8007ba10	TryUnembeddPointSafe
+800cb16c	TTLLights
+8002ea50	TurnRot
+80102c6c	TypeAndStatusCallback
+
+80074200	UnembedRayCastAtlas
+80074288	UnembedRayCastAtlasSimple
+80072b54	UnleashLighteningHail
+8005133c	UnLoadGBABG
+800ef4a4	UnlockedCallback
+800ff574	UnlockedHandler
+800e0ca8	UnlockSram
+800cfab0	UnpackTexPalette
+800e1380	UnsetRun
+800d3ffc	UnSetupShaders
+
+8001f9f0	UpdateAnimPacket
+8005ad50	UpdateArrow
+80029df4	UpdateAwards
+80009274	UpdateBugLight
+8001938c	UpdateCharacterIdle
+8000f3d0	UpdateChase
+800538dc	UpdateChaseRunAnim
+800101a0	UpdateChases
+8000ea30	UpdateCrateBallsOfFireDoors
+80015634	UpdateCrateExplosions
+80013ac0	UpdateCrates
+8000402c	UpdateCRUNCHTIME
+80020f1c	UpdateCutMovie
+80020fa8	UpdateCutMovieCamera
+80003828	UpdateDRAINDAMAGE
+8004f914	UpdateFade
+80021a04	UpdateGameCut
+80061354	UpdateGameSfx
+8004c7ac	UpdateGlobals
+800f38d4	UpdateIconOffsets
+8002d1e4	UpdateKabooms
+8003cc50	UpdateLevel
+80030424	UpdateMask
+80031030	UpdateMaskFeathers
+800e8b94	UpdateOrigin
+80060814	UpdatePanelDebris
+8005b6e0	UpdatePanelItem
+800a3324	UpdatePlatinst
+8006027c	UpdatePlayerStats
+80043a80	UpdateProjectiles
+80019554	UpdateRumble
+8007603c	UpdateRumbleCamTween
+8004eafc	UpdateSaveSlots
+8002f6ac	UpdateScreenWumpas
+80029718	UpdateTempCharacter
+800cff1c	UpdateTime
+80038124	UpdateTimer
+80088874	UpdateTotalPtls
+8002ef94	UpdateWumpa
+
+800c5e6c	VecMatMulAddAndWeight
+800c5db4	VecMatMulAndWeight
+800c5e18	VecMatMulAndWeight1
+800c5fe8	VecMatMulAndWeight2
+800c5edc	VecMatMulAndWeight3
+8006210c	VehicleSetup
+800f095c	VerifyDir
+800f0b9c	VerifyFAT
+800f06d8	VerifyID
+800d45a4	Version
+800d9a14	vfprintf			(int __stdcall)
+800e7d98	VIConfigure
+800e8534	VIFlush
+800e8848	VIGetCurrentLine
+800e87a0	VIGetNextField
+800e88e0	VIGetTvFormat
+800e7458	VIInit
+800c7c20	VIPostCallback
+800e86bc	VISetBlack
+800e8650	VISetNextFrameBuffer
+800e718c	VISetPostRetraceCallback
+8007dc74	visiLoadData
+8007da14	visiSetSplineKnot
+800e78d0	VIWaitForRetrace
+800c3258	vpDmaTag_Close
+800c3230	vpDmaTag_RetEx
+801047a4	vprintf				 (int __stdcall)
+8007d784	VSAddObjs
+800dadbc	vsprintf			(int __stdcall)
+80003be8	WaterCrunchFunction_Attack
+80003f14	WaterCrunchFunction_Defeated
+80003c3c	WaterCrunchFunction_Punch1
+80003ce4	WaterCrunchFunction_Punch2
+80003d8c	WaterCrunchFunction_Spladoosh
+80070264	WeatherBossNextAction
+8007331c	WeatherBossReset
+80072310	WeatherResearchReset
+80049730	WesternArenaReset
+80049678	WesternRaceManager
+800163e4	WipeCrates
+80041d7c	WipeCreatures
+8002f560	WipeWumpa
+800efec8	WriteCallback
+800f02cc	WriteCallback
+800f335c	WriteCallback
+800c6a94	WriteInitialCode
+800fc704	WriteMTXPS3x3from3x4
+800fc738	WriteMTXPS4x2
+800fc6d0	WriteMTXPS4x3
+80102968	WriteProc
+800e09a4	WriteSram
+800e0944	WriteSramCallback
+800ff988	WriteUARTN
+80040ae8	WumpaCollisions
+8002ffd0	WumpaHitTerrain
+8003c3a0	WumpaRayCast
+8004f430	XbEnumerateSaveGames
+800d4c94	XbGetNumControllers
+800d4694	XbGetWorkingController
+800d4c90	XbLaunchDashboardToFreeSpace
+800d46c0	XbPollAllControllers
+800d48c8	XbPollPeripherals
+8004f4fc	XbUpdateDateStamp
+800d4c8c	XbWaitForAllBuffersToStop
+800ba6d0	XDefLabTabFind
+800d48cc	XInputGetState
+800c117c	xy
+80065e30	ZoffaSmoke
+80065d78	ZoffaUFORespawn
